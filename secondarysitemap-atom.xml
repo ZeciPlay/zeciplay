@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sitemap - dica7.vercel.app</title>
+  <link href="https://dica7.vercel.app/secondarysitemap-atom.xml" rel="self"/>
+  <link href="https://dica7.vercel.app/"/>
+  <updated>2025-11-16T00:00:00Z</updated>
+  <author>
+    <name>dica7</name>
+  </author>
+  <id>https://dica7.vercel.app/secondarysitemap-atom.xml</id>
+
+  <entry>
+    <title>Mobile Page</title>
+    <link href="https://dica7.vercel.app/htmls/Mobile.html"/>
+    <id>https://dica7.vercel.app/htmls/Mobile.html</id>
+    <updated>2025-11-16T00:00:00Z</updated>
+  </entry>
+
+  <entry>
+    <title>Port Page</title>
+    <link href="https://dica7.vercel.app/htmls/port.html"/>
+    <id>https://dica7.vercel.app/htmls/port.html</id>
+    <updated>2025-11-16T00:00:00Z</updated>
+  </entry>
+
+  <entry>
+    <title>Gameloft Games</title>
+    <link href="https://dica7.vercel.app/htmls/gameloft.html"/>
+    <id>https://dica7.vercel.app/htmls/gameloft.html</id>
+    <updated>2025-11-16T00:00:00Z</updated>
+  </entry>
+
+  <entry>
+    <title>Web Games</title>
+    <link href="https://dica7.vercel.app/htmls/webgames.html"/>
+    <id>https://dica7.vercel.app/htmls/webgames.html</id>
+    <updated>2025-11-16T00:00:00Z</updated>
+  </entry>
+
+  <entry>
+    <title>Undertale Game</title>
+    <link href="https://dica7.vercel.app/undertale/unindex.html"/>
+    <id>https://dica7.vercel.app/undertale/unindex.html</id>
+    <updated>2025-11-16T00:00:00Z</updated>
+  </entry>
+
+  <entry>
+    <title>DDLC Game</title>
+    <link href="https://dica7.vercel.app/DDLC/ddlc.html"/>
+    <id>https://dica7.vercel.app/DDLC/ddlc.html</id>
+    <updated>2025-11-16T00:00:00Z</updated>
+  </entry>
+
+  <entry>
+    <title>Memorial Page</title>
+    <link href="https://dica7.vercel.app/M/memorial.html"/>
+    <id>https://dica7.vercel.app/M/memorial.html</id>
+    <updated>2025-11-16T00:00:00Z</updated>
+  </entry>
+</feed>

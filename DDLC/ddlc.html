@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+    <title>DDLC Fangames Collection | DM7 Web</title>
+    <meta name="description" content="doki doki literature club, fangames ddlc, fan games ddlc, apk ddlc.">
+    <meta name="keywords" content="ddlc, doki doki literature club, fangames, monika, sayori, yuri, natsuki, visual novel, mods, fangames ddlc, apk ddlc">
+    <meta name="author" content="DM7 Web">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="DDLC Fangames Collection | DM7 Web">
+    <meta property="og:description" content="Explore nossa coleção de fangames de Doki Doki Literature Club (DDLC). Jogos com Monika, Sayori, Yuri e Natsuki.">
+    <meta property="og:image" content="https://dica7.vercel.app/1.jpg">
+    <meta property="og:url" content="https://dica7.vercel.app/DDLC/ddlc.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DM7 Web">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DDLC Fangames Collection">
+    <meta name="twitter:description" content="Coleção de fangames de Doki Doki Literature Club">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "DDLC Fangames Collection",
+      "description": "Uma coleção de fangames de Doki Doki Literature Club",
+      "url": "https://dica7.vercel.app/DDLC/ddlc.html",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@type": "Organization",
+        "name": "DM7 Web",
+        "url": "https://dica7.vercel.app/"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": 24,
+        "itemListElement": []
+      }
+    }
+    </script>
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8654181653894126" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-png" href="1.jpg">
+    <meta name="google-site-verification" content="9LKJtro25mAbTTJWlq_fk6c5zMACOKCsYmZyNFQA_ic" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S50NPG5Q2M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-S50NPG5Q2M');
+    </script>
+</head>
+<body>
+  <header role="banner">
+    <div class="header-inner">
+      <div class="brand">
+          <a class="back-button" href="../Android/Dm7Android.html" aria-label="Voltar para a página principal">
+            <i class="fas fa-arrow-left"></i> Voltar
+          </a>
+        <h1>DDLC Fangames</h1>
+      </div>
+      <div class="stats">
+        <span><strong id="totalGames">0</strong> games</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="filters" aria-label="Filtros de jogos">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="🔍 Search games..." class="search" aria-label="Pesquisar jogos">
+    </div>
+    <div class="filter-btns">
+      <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter-btn" data-filter="Monika" aria-pressed="false">Monika</button>
+      <button class="filter-btn" data-filter="Sayori" aria-pressed="false">Sayori</button>
+      <button class="filter-btn" data-filter="Yuri" aria-pressed="false">Yuri</button>
+      <button class="filter-btn" data-filter="Natsuki" aria-pressed="false">Natsuki</button>
+    </div>
+  </section>
+
+  <main class="container" role="main">
+    <div id="grid" class="grid"></div>
+    <div id="loading" class="loading">Loading...</div>
+    <div id="noResults" class="no-results hidden">No games found</div>
+    <div id="pagination" class="pagination" aria-label="Navegação de páginas"></div>
+  </main>
+
+  <footer role="contentinfo">
+    <p>DDLC Fangames Collection • Unofficial</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

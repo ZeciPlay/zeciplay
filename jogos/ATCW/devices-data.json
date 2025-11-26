@@ -1,0 +1,20 @@
+{
+  "devices": [
+    {
+      "name": "Redmi Note 8",
+      "compatibility": "Compatible",
+      "fps_normal": "57~60 FPS",
+      "fps_configurado": "58~60 FPS",
+      "quedas_fps": "No",
+      "user": "DM7Ofi"
+    },
+    {
+      "name": "Samsung Galaxy M20",
+      "compatibility": "Compatible",
+      "fps_normal": "57~60 FPS",
+      "fps_configurado": "58~60 FPS",
+      "quedas_fps": "No",
+      "user": "DM7Ofi"
+    }
+  ]
+}

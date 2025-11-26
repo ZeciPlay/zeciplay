@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Games - Browser Games & HTML5 Games | DM7 Web</title>
+    <meta name="description" content="Free web games playable directly in browser. Collection of HTML5 games, browser-based games and online games for mobile and desktop.">
+    <meta name="keywords" content="web games, browser games, html5 games, online games, play in browser, mobile games, android games apk">
+    <meta name="author" content="DM7Web">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Web Games - Browser Games & HTML5 Games">
+    <meta property="og:description" content="Free web games playable directly in your browser - No APK download required">
+    <meta property="og:image" content="https://dica7.vercel.app/1.jpg">
+    <meta property="og:url" content="https://dica7.vercel.app/htmls/webgames.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8654181653894126" crossorigin="anonymous"></script>
+    
+    <!-- CSS & Favicon -->
+    <link rel="stylesheet" href="gmp.css">
+    <link rel="shortcut icon" type="image/x-png" href="../1.jpg">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S50NPG5Q2M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-S50NPG5Q2M');
+    </script>
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Web Games Collection - Browser Games",
+      "description": "Collection of browser-based games playable online - No APK download needed",
+      "url": "https://dica7.vercel.app/htmls/webgames.html"
+    }
+    </script>
+</head>
+<body>
+    <a class="back-button" href="../Android/Dm7Android.html" aria-label="Back to main page">
+        <i class="fas fa-arrow-left"></i> Back
+    </a>
+    
+    <header class="hero" role="banner">
+        <img src="https://i.pinimg.com/originals/0d/ba/6a/0dba6a928b72dc61704fd6119598d94e.gif" alt="Web Games Banner - Browser Gaming Collection" class="hero-banner" loading="lazy">
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+            <div class="logo">
+                <i class="fas fa-gamepad" aria-hidden="true"></i>
+                <span>DM7Web</span>
+            </div>
+            <h1>Web Games</h1>
+            <p>Amazing games to play directly in your browser - No APK required</p>
+        </div>
+    </header>
+
+    <div class="search-container" role="search">
+        <div class="search-box">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <input type="text" id="search-input" placeholder="Search web games..." aria-label="Search web games">
+            <button id="clear-search" class="clear-btn" aria-label="Clear search">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="filter-options">
+            <span>Filter by:</span>
+            <select id="sort-select" aria-label="Sort games by">
+                <option value="name">Name (A-Z)</option>
+                <option value="size">Size (Smallest first)</option>
+            </select>
+            <select id="control-filter" aria-label="Filter by control type">
+                <option value="all">All Controls</option>
+                <option value="touch">Touch Controls</option>
+                <option value="keyboard">Keyboard/Controller</option>
+            </select>
+        </div>
+    </div>
+
+    <main class="games-section" role="main">
+        <div id="loading" class="loading" aria-live="polite">
+            <div class="spinner" aria-hidden="true"></div>
+            <p>Loading web games...</p>
+        </div>
+        <div id="game-list" class="game-grid" role="list" aria-label="List of web games"></div>
+        <div id="no-results" class="no-results hidden" aria-live="polite">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <h3>No games found</h3>
+            <p>Try adjusting your search terms</p>
+        </div>
+    </main>
+
+    <div class="pagination-container" aria-label="Pagination navigation">
+        <div id="pagination-top" class="pagination"></div>
+    </div>
+
+    <footer class="footer" role="contentinfo">
+        <p>DM7Web &copy; 2025 - Play directly in browser, no APK download required. All games are trademarks of their respective authors.</p>
+    </footer>
+ <script src="image-loader.js"></script>
+    <script src="webgames.js"></script>
+</body>
+</html>

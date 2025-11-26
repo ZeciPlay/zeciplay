@@ -1,0 +1,72 @@
+[
+  {
+    "name": "8 Beat Story",
+    "size": "103mb+",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGW6wefXQxu6VQpJTmTyQzxM5MM7SLAHxd8A&s",
+    "genre": "Rhythm",
+    "link": "https://abre.ai/beatstory"
+  },
+  {
+    "name": "Ankaa",
+    "size": "92mb+",
+    "image": "https://img.tapimg.net/market/images/1c30c5e1c1db70f853f88937fd10b427.png/appicon?t=1",
+    "genre": "Rhythm",
+    "link": "https://abre.ai/ankaa"
+  },
+  {
+    "name": "Captain America: The Winter Soldier - The Official Game",
+    "size": "20mb+",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OeHaTvRxJlsDU6CIKD3_M5HozOiHonUJg_OOZlUr8Q&s=10",
+    "genre": "Endless Runner",
+    "link": "https://abre.ai/catws"
+  },
+  {
+    "name": "Crash Bandicoot: On the Run",
+    "size": "755mb+",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgZ3k1iLY1N7zTYbTvVTvFIjH2Tum-SSZ5oQ&usqp=CAU",
+    "genre": "Endless Runner",
+    "link": "https://abre.ai/cbotr"
+  },
+  {
+    "name": "Cyber Hunter",
+    "size": "2.44gb+",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-5MXheAJLkn0UQupxE0G9CMooUcndGzf-Tw&s",
+    "genre": "Action",
+    "link": "https://abre.ai/pbabr"
+  },
+  {
+    "name": "SpiderMan No Limits",
+    "size": "50mb+",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-_b3Vet5YX1d2h4717rbrxDXFZveDa_0aiQ&s",
+    "genre": "Endless Runner",
+    "link": "https://abre.ai/smnl"
+  },
+  {
+    "name": "Titan Fall",
+    "size": "157mb",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDk__hRHatRiViLIiseUSTOZU3sCZrX-X5cuM7wE9nw&s=10",
+    "genre": "Action",
+    "link": "https://titanfall-assault.br.uptodown.com/android"
+  },
+  {
+    "name": "Minions Paradise",
+    "size": "92mb",
+    "image": "https://img.utdstc.com/icon/94a/01b/94a01b7b7b7dc0239adc28677dd210a8438c5004d409e296f444126eeda1dd7c:200",
+    "genre": "City",
+    "link": "https://en-wikipedia-org.translate.goog/wiki/Minions_Paradise?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc"
+  },
+  {
+    "name": "SiNoALICE",
+    "size": "185mb",
+    "image": "https://img.utdstc.com/icon/a46/a27/a46a27ee9f7c9f7f87776dde3edddc91c85b07651a6f6d39ead2ea2501d3c6d8:200",
+    "genre": "RPG",
+    "link": "https://sinoalice.fandom.com/wiki/SINoALICE_Wiki"
+  },
+  {
+    "name": "Rules of Survival",
+    "size": "4gb",
+    "image": "https://image-winudf-com.cdn.ampproject.org/ii/AW/s/image.winudf.com/v2/image1/Y29tLm5ldGVhc2UuY2hpamlfaWNvbl8xNjM2NjkwNTMzXzA2OA/icon.png?w=184&fakeurl=1",
+    "genre": "Action",
+    "link": "https://en.wikipedia.org/wiki/Rules_of_Survival"
+  }
+]

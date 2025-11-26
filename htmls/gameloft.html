@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameloft Classics APK - DM7 Web</title>
+    <meta name="description" content="Download Gameloft classics APK files for free. Collection of retro Gameloft games including Asphalt, Modern Combat APK, and more mobile games.">
+    <meta name="keywords" content="gameloft apk, gameloft games, classic mobile games, retro games, asphalt apk, modern combat apk, free gameloft games, android apk">
+    <meta name="author" content="DM7Web">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Gameloft Classics APK - Retro Mobile Games Collection">
+    <meta property="og:description" content="Free APK collection of classic Gameloft mobile games. Download retro favorites from Gameloft.">
+    <meta property="og:image" content="https://dica7.vercel.app/1.jpg">
+    <meta property="og:url" content="https://dica7.vercel.app/htmls/gameloft.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8654181653894126" crossorigin="anonymous"></script>
+    
+    <!-- CSS & Favicon -->
+    <link rel="stylesheet" href="gameloft.css">
+    <link rel="shortcut icon" type="image/x-png" href="../1.jpg">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S50NPG5Q2M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-S50NPG5Q2M');
+    </script>
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Gameloft Classics APK Collection",
+      "description": "Collection of classic Gameloft mobile games APK files",
+      "url": "https://dica7.vercel.app/htmls/gameloft.html"
+    }
+    </script>
+</head>
+<body>
+    <a class="back-button" href="../Android/Dm7Android.html" aria-label="Back to main page">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+    
+    <!-- HERO SECTION COM BANNER -->
+    <section class="hero">
+        <img src="bbbanner.gif" alt="Gameloft Classics Banner" class="hero-banner">
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <header class="header" role="banner">
+                <div class="logo-main">GAMELOFT CLASSICS APK</div>
+                
+                <div class="search-container">
+                    <div class="search-box">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                        <input type="text" id="search-input" placeholder="Search APK games..." aria-label="Search APK games">
+                        <button id="clear-search" aria-label="Clear search">
+                            <i class="fas fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    
+                    <select id="sort-select" aria-label="Sort APK games by">
+                        <option value="name">Name</option>
+                        <option value="year">Year</option>
+                        <option value="size">Size</option>
+                    </select>
+                </div>
+            </header>
+        </div>
+    </section>
+
+    <nav class="categories" aria-label="APK game categories">
+        <button class="category-btn active" data-category="all">All Games</button>
+        <button class="category-btn" data-category="action">Action</button>
+        <button class="category-btn" data-category="racing">Racing</button>
+        <button class="category-btn" data-category="rpg">RPG</button>
+        <button class="category-btn" data-category="adventure">Adventure</button>
+        <button class="category-btn" data-category="endless runner">Endless Runner</button>
+        <button class="category-btn" data-category="simulation">Simulation</button>
+    </nav>
+
+    <main class="main" role="main">
+        <div class="games-header">
+            <h1>Available Games</h1>
+            <span id="results-count" aria-live="polite">0 games</span>
+        </div>
+
+        <div id="loading" class="loading" aria-live="polite">
+            <div class="spinner" aria-hidden="true"></div>
+            <span class="sr-only">Loading...</span>
+        </div>
+
+        <div id="game-list" class="games-grid" role="list" aria-label="List of Gameloft APK games"></div>
+        
+        <div id="no-results" class="no-results hidden" aria-live="polite">
+            <i class="fas fa-gamepad" aria-hidden="true"></i>
+            <p>No games found</p>
+        </div>
+    </main>
+
+    <div class="pagination-container" aria-label="Pagination navigation">
+        <div id="pagination-top" class="pagination"></div>
+    </div>
+ <script src="image-loader.js"></script>
+    <script src="gameloft.js"></script>
+</body>
+</html>

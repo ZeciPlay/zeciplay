@@ -1,0 +1,66 @@
+{
+  "games": [
+    {
+      "name": "OneTale",
+      "size": "166 MB",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFjJdBQL4PThIizLxQFesVeNAArDMosAXAJR-K8hM1Xw&s",
+      "link_en": "https://abre.ai/enonetale"
+    },
+    {
+      "name": "Undertale",
+      "size": "124 MB",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Undertale.png/1024px-Undertale.png",
+      "link_en": "https://abre.ai/enundertale",
+      "link_pt": "https://abre.ai/brundertale"
+    },
+    {
+      "name": "Deltarune",
+      "size": "485 MB",
+      "image": "https://user-images.githubusercontent.com/35242550/147987895-053c724c-eefd-4cc0-ae20-a1502ab0120d.png",
+      "link_en": "https://abre.ai/endeltarune"
+    },
+    {
+      "name": "Undertale Red & Yellow",
+      "size": "209 MB",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF4PPLNnbZnjuHn-g_QprIxYGDcL-WeH-UNY_cy3Z0fpX7CdT731tQxNk&s=10",
+      "link_en": "https://abre.ai/enundertalerandy"
+    },
+    {
+      "name": "Undertale Yellow",
+      "size": "256 MB",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkk2BHB2YKE_NK0KOXKnV5Itb_ym-r-dgn__9S5bhePsL7E2xcg765GZA&s=10",
+      "link_en": "https://abre.ai/enyellow",
+      "link_pt": "https://abre.ai/bryellow"
+    },
+    {
+      "name": "Undertale Icebound",
+      "size": "318 MB",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFChtKRLpDgCMbaFo7EG8MjcSC7ahuXM2PN78W7sWCGA&s",
+      "link_en": "https://abre.ai/enicebound"
+    },
+    {
+      "name": "Papyrus Disbelief",
+      "size": "40 MB",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw1KUAyWtkUR92Dl9XkgDnBl6iDZ5qBDpgDA&s",
+      "link_en": "https://abre.ai/enpapyrusdibelief"
+    },
+    {
+      "name": "Bite and Pieces",
+      "size": "219 MB",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW82UNGi57pECYucniA9_-sirGoNZkHy0lun5FVWen4tN54Tm6rOK-UZY&s=10",
+      "link_en": "https://abre.ai/enbiteandpeaces"
+    },
+    {
+      "name": "Deltatraveler",
+      "size": "209 MB",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIG92vJxx9j_FMMx-5hneDXTl-HWSpP2KoobCPJfCbn2GoetjGIQLFcYg&s=10",
+      "link_en": "https://abre.ai/endeltatraveler"
+    },
+    {
+      "name": "TS!Underswap",
+      "size": "154 MB",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcfONBoqHWzgyO2nfdpOB1dSWxMCEXdqSBCJ87Mnf-d1e4q9sp09hjsOY&s=10",
+      "link_en": "https://abre.ai/entsswaper"
+    }
+  ]
+}

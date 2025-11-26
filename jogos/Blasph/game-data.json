@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Blasphemous",
+    "version": "1.9.0",
+    "size": "921mb",
+    "description": "Blasphemous is a brutal action-platformer with a dark fantasy aesthetic, set in the nightmare world of Cvstodia. As the Penitent One, you must fight through hordes of grotesque enemies and face colossal, terrifying bosses to uncover the secrets behind your eternal damnation.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "60~120Hours",
+      "releaseDate": "September/10/2019",
+      "languages": "English, Español, Português Brasileiro, Français, Deutsch, Italiano, 中文, 日本語, 한국어, Pyccknii",
+      "gameType": "Metroidvania, Action, Platformer, <br>Souls-like, Dark Fantasy"
+    },
+    "banner": "https://cdn.akamai.steamstatic.com/steam/apps/774361/header.jpg",
+    "icon": "1.png",
+    "screenshots": [
+      "https://preview.redd.it/59kld5thl9i61.jpg?width=640&crop=smart&auto=webp&s=9eb0a58acd5ff0d88503829f87d553a0027021a7",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5B4hqDV8e7HryiVnA6uE2MfmURO9Bz2NghGtuewGhSA&s=10"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

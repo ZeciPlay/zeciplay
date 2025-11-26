@@ -1,0 +1,465 @@
+/* Reset e variáveis - TEMA ESCURO */
+:root {
+    --primary-blue: #009acd;
+    --dark-blue: #0077a3;
+    --darker-blue: #005a7a;
+    --wii-gray: #2d2d2d;
+    --dark-bg: #121212;
+    --darker-bg: #1a1a1a;
+    --card-bg: #2a2a2a;
+    --text-primary: #f0f0f0;
+    --text-secondary: #b0b0b0;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--dark-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Banner integrado ao header */
+.wii-header {
+    text-align: center;
+    padding: 0 20px 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.wii-header-bg {
+    background: linear-gradient(to bottom, var(--primary-blue), var(--dark-blue));
+    color: white;
+    border-radius: 15px;
+    padding: 120px 20px 25px;
+    position: relative;
+    box-shadow: var(--shadow);
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Banner integrado */
+.wii-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner-content {
+    max-width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-gif {
+    max-height: 60px;
+    max-width: 100%;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.banner-gif:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.wii-header h1 {
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+.wii-logo {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+}
+
+/* Popup de instruções */
+.instruction-popup {
+    position: fixed;
+    top: 140px;
+    left: 20px;
+    z-index: 1500;
+    background: rgba(42, 42, 42, 0.95);
+    border: 3px solid var(--primary-blue);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: var(--shadow);
+    animation: slideIn 0.5s ease;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.popup-content {
+    position: relative;
+    padding-right: 25px;
+}
+
+.close-popup {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--primary-blue);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.close-popup:hover {
+    background: var(--dark-blue);
+    transform: scale(1.1);
+}
+
+.instruction-popup p {
+    font-weight: 500;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+/* Grid de jogos */
+.wii-content-container {
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 20px 100px;
+    box-shadow: var(--shadow);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+}
+
+.grid-cell {
+    aspect-ratio: 4/3;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 3px solid var(--wii-gray);
+    background: var(--darker-bg);
+    min-width: 0;
+}
+
+.grid-cell:hover {
+    transform: translateY(-5px) scale(1.02);
+    border-color: var(--primary-blue);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.grid-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.grid-cell:hover img { 
+    transform: scale(1.1); 
+}
+
+/* Overlay */
+.zoom-overlay {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.zoom-overlay.active { 
+    display: flex; 
+}
+
+.zoom-content {
+    background: var(--card-bg);
+    border-radius: 20px;
+    width: 90%;
+    max-width: 800px;
+    overflow: hidden;
+    animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.game-image-container {
+    height: 400px;
+    overflow: hidden;
+}
+
+.zoom-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game-info {
+    padding: 20px;
+    background: linear-gradient(to bottom, var(--primary-blue), var(--dark-blue));
+    color: white;
+    text-align: center;
+}
+
+.game-info h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.game-info p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.wii-buttons {
+    padding: 20px;
+    background: var(--wii-gray);
+    text-align: center;
+}
+
+.wii-btn {
+    background: linear-gradient(to bottom, var(--primary-blue), var(--dark-blue));
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.wii-btn:hover { 
+    transform: scale(1.05); 
+}
+
+/* Footer */
+.wii-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: var(--wii-gray);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.footer-btn {
+    background: var(--primary-blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer-btn:hover { 
+    background: var(--dark-blue); 
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+    
+    .wii-header-bg {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container { 
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    
+    .wii-header h1 { 
+        font-size: 2rem; 
+    }
+    
+    .wii-header-bg {
+        padding: 100px 20px 20px;
+    }
+    
+    .wii-banner {
+        height: 80px;
+    }
+    
+    .banner-content {
+        max-width: 400px;
+        height: 60px;
+    }
+    
+    .banner-gif {
+        max-height: 50px;
+    }
+    
+    .wii-logo {
+        top: 90px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .game-image-container { 
+        height: 300px; 
+    }
+    
+    .game-info h2 { 
+        font-size: 1.4rem; 
+    }
+    
+    .wii-footer { 
+        flex-direction: row; 
+        gap: 10px; 
+    }
+    
+    .instruction-popup {
+        top: 120px;
+        left: 10px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container { 
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        padding: 10px;
+    }
+    
+    .wii-content-container { 
+        margin: 0 10px 80px; 
+        padding: 10px;
+    }
+    
+    .zoom-content { 
+        width: 95%; 
+    }
+    
+    .grid-cell {
+        border-width: 2px;
+    }
+    
+    .wii-header-bg {
+        padding: 80px 15px 15px;
+        margin: 0 10px;
+    }
+    
+    .wii-banner {
+        height: 60px;
+    }
+    
+    .banner-content {
+        max-width: 300px;
+        height: 50px;
+    }
+    
+    .banner-gif {
+        max-height: 40px;
+    }
+    
+    .wii-logo {
+        top: 70px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+    
+    .wii-header h1 {
+        font-size: 1.6rem;
+    }
+    
+    .instruction-popup {
+        top: 100px;
+        left: 5px;
+        padding: 10px;
+        max-width: 180px;
+    }
+    
+    .instruction-popup p {
+        font-size: 14px;
+    }
+}
+
+/* Para telas muito pequenas, ajusta para 2 colunas */
+@media (max-width: 360px) {
+    .grid-container { 
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .wii-header-bg {
+        padding: 70px 10px 10px;
+    }
+    
+    .wii-banner {
+        height: 50px;
+    }
+    
+    .banner-content {
+        max-width: 250px;
+        height: 40px;
+    }
+    
+    .banner-gif {
+        max-height: 35px;
+    }
+}

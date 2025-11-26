@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="1.jpg">
+    <meta name="google-site-verification" content="9LKJtro25mAbTTJWlq_fk6c5zMACOKCsYmZyNFQA_ic" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S50NPG5Q2M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-S50NPG5Q2M');
+    </script>
+</head>
+<body>
+    <div class="instruction-popup" id="instructionPopup">
+        <div class="popup-content">
+            <button class="close-popup" onclick="closeInstruction()">×</button>
+            <p>Click on any game to view details</p>
+        </div>
+    </div>
+    
+    <header class="wii-header">
+        <div class="wii-header-bg">
+            <!-- Banner integrado -->
+            <div class="wii-banner">
+                <div class="banner-content">
+                    <img src="onbanner.gif" alt="Banner" class="banner-gif">
+                </div>
+            </div>
+            
+            <h1>Memorial</h1>
+            <div class="wii-logo">Wii</div>
+        </div>
+    </header>
+    
+    <main class="wii-content-container">
+        <div class="grid-container" id="gridContainer">
+            <div class="loading">Loading games...</div>
+        </div>
+    </main>
+    
+    <footer class="wii-footer">
+        <button class="footer-btn" onclick="goHome()">Back</button>
+    </footer>
+    
+    <div class="zoom-overlay" id="zoomOverlay">
+        <div class="zoom-content">
+            <div class="game-image-container">
+                <img id="zoomedImage" src="" alt="Game" class="zoom-image">
+            </div>
+            <div class="game-info">
+                <h2 id="gameTitle"></h2>
+                <p id="gameSize"></p>
+                <p id="gameGenre"></p>
+            </div>
+            <div class="wii-buttons">
+                <button class="wii-btn" id="viewButton">
+                    <span class="btn-text">View</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

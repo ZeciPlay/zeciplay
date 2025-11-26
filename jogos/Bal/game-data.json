@@ -1,0 +1,220 @@
+{
+  "game": {
+    "title": "Balatro",
+    "version": "0.7",
+    "size": "79mb",
+    "description": "Highly addictive and satisfying, Balatro is a magical combination of card games like Solitaire and Poker, giving you the chance to break the rules in a way you've never seen before!",
+    "specifications": {
+      "architecture": "32-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "386 hours",
+      "releaseDate": "February 20, 2024",
+      "languages": "Bahasa, Deutsch, English , Español (España), Español (Mexico), Français, Italiano, Nederlands , Polski , Português, Русский, 日本語, 简体中文, 繁體中文, 한국어",
+      "gameType": "roguelike deck-builders"
+    },
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9A-3kCksQ-V01TeCo4319k4snrW0dC_nmrEaZ5KewaloLFuzC6GFIkXB&s=10",
+    "icon": "1.png",
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGCaTj_4HMhZO8RKoVr-meSggQSmw90byTiB9EsMwzBg&s=10",
+      "https://cdn.mobygames.com/screenshots/18275913-balatro-windows-browsing-the-joker-cards-unlocked-so-far.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbVxyyNRWxgm1Z7ajHK0Z-f-G3TJWZxPCePZ501U0NnA&s=10"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Ante Up!",
+      "description": "Reach Ante 4.",
+      "image": "1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ante Upper!",
+      "description": "Reach Ante 8.",
+      "image": "2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Heads Up",
+      "description": "Win a Run.",
+      "image": "3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Low Stakes",
+      "description": "Win a run on at least Red Stake difficulty.",
+      "image": "4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mid Stakes",
+      "description": "Win a run on at least Black Stake difficulty.",
+      "image": "5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "High Stakes",
+      "description": "Win a run on at least Gold Stake difficulty.",
+      "image": "6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Card Player",
+      "description": "Play at least 2500 Cards.",
+      "image": "7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Card Discarder",
+      "description": "Discard at least 2500 Cards.",
+      "image": "8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Nest Egg",
+      "description": "Have $400 or more during a single run.",
+      "image": "9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Flushed",
+      "description": "Play a Flush with 5 Wild Cards.",
+      "image": "10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Speedrunner",
+      "description": "Win a run in 12 or fewer rounds.",
+      "image": "11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "ROI",
+      "description": "Buy 5 vouchers by Ante 4.",
+      "image": "12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Shattered",
+      "description": "Break 2 Glass Cards in a single hand.",
+      "image": "13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Royale",
+      "description": "Play a Royal Flush.",
+      "image": "14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Retrograde",
+      "description": "Get any poker hand to level 10.",
+      "image": "15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "10K",
+      "description": "Score 10,000 Chips in a single hand.",
+      "image": "16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "1,000k",
+      "description": "Score 1,000,000 Chips in a single hand.",
+      "image": "17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "100,000K",
+      "description": "Score 100,000,000 Chips in a single hand.",
+      "image": "18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Tiny Hands",
+      "description": "Thin your deck down to 20 or fewer cards.",
+      "image": "19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Big Hands",
+      "description": "Have 80 or more cards in your deck.",
+      "image": "20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "You Get What You Get",
+      "description": "Win a run without rerolling the shop.",
+      "image": "21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Rule Bender",
+      "description": "Complete any challenge run.",
+      "image": "22.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Rule Breaker",
+      "description": "Complete every challenge run.",
+      "image": "23.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Legendary",
+      "description": "Discover a Legendary Joker.",
+      "image": "24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Astronomy",
+      "description": "Discover every Planet card.",
+      "image": "25.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Cartomancy",
+      "description": "Discover every Tarot card.",
+      "image": "26.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Clairvoyance",
+      "description": "Discover every Spectral card.",
+      "image": "27.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Extreme Couponer",
+      "description": "Discover every Voucher.",
+      "image": "28.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Completionist",
+      "description": "Discover 100% of your collection.",
+      "image": "29.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Completionist+",
+      "description": "Win with every deck at Gold Stake difficulty.",
+      "image": "30.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Completionist++",
+      "description": "Earn a Gold Sticker on every Joker.",
+      "image": "31.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Platinum",
+      "description": "Obtain all other trophies.",
+      "image": "32.jpg"
+    }
+  ]
+}

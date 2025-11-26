@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    font-family: 'VT323', monospace;
+    color: #fff;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    background-color: #2d2d44;
+    border: 4px solid #6d4c3d;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6d4c3d;
+}
+
+.section-title {
+    color: #f5d76e;
+    font-size: 24px;
+    border-bottom: 1px solid #4e7ab5;
+    padding-bottom: 8px;
+}
+
+.main-content {
+    display: flex;
+    gap: 15px;
+}
+
+.games-section {
+    flex: 3;
+    background-color: #16213e;
+    border: 2px solid #4e7ab5;
+    padding: 10px;
+}
+
+/* --- GRADE ADAPTATIVA --- */
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.game-item {
+    background-color: #1a1a2e;
+    border: 2px solid #6d4c3d;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    height: 160px;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.game-item:hover {
+    background-color: #2d2d44;
+    border-color: #f5d76e;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.game-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #8c7355;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6d4c3d;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.game-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game-info {
+    text-align: center;
+    width: 100%;
+}
+
+.game-title {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    word-break: break-word;
+}
+
+.game-desc {
+    color: #8c7355;
+    font-size: 12px;
+}
+
+.access-btn {
+    background-color: #4e7ab5;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.access-btn:hover {
+    background-color: #3a5f8a;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 120px;
+}
+
+.menu-options {
+    background-color: #16213e;
+    border: 2px solid #4e7ab5;
+    padding: 10px;
+}
+
+.menu-item {
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #2d2d44;
+}
+
+.menu-item.selected {
+    background-color: #2d2d44;
+    color: #f5d76e;
+}
+
+.menu-item a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.popup {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #1a1a2e;
+    padding: 20px;
+    border: 3px solid #6d4c3d;
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+    color: #fff;
+    position: relative;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px; 
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #f5d76e;
+}
+
+.popup-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid #6d4c3d;
+    margin: 0 auto 15px;
+}
+
+.popup-buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.popup-btn {
+    background: #4e7ab5;
+    color: white;
+    padding: 8px;
+    border: none;
+    text-decoration: none;
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-btn:hover {
+    background: #3a5f8a;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #8c7355;
+}
+
+/* --- BREAKPOINTS ADAPTATIVOS --- */
+
+/* Tablets pequenos (768px+) - 3 jogos por linha */
+@media (min-width: 768px) {
+    .game-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        max-height: 600px;
+    }
+    
+    .game-item {
+        height: 170px;
+    }
+    
+    .game-icon {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+/* Tablets grandes/Desktops pequenos (1024px+) - 4 jogos por linha */
+@media (min-width: 1024px) {
+    .game-list {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+        max-height: 700px;
+    }
+    
+    .game-item {
+        height: 180px;
+        padding: 15px;
+    }
+    
+    .game-icon {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .game-title {
+        font-size: 18px;
+    }
+}
+
+/* Desktops médios (1280px+) - 5 jogos por linha */
+@media (min-width: 1280px) {
+    .game-list {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+    
+    .game-item {
+        height: 190px;
+    }
+    
+    .game-icon {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+/* Desktops grandes (1440px+) - 6 jogos por linha */
+@media (min-width: 1440px) {
+    .game-list {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    .game-item {
+        height: 200px;
+    }
+    
+    .game-icon {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* Ajustes para telas muito pequenas (até 480px) */
+@media (max-width: 480px) {
+    .container {
+        padding: 8px;
+    }
+    
+    .game-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        max-height: 400px;
+    }
+    
+    .game-item {
+        height: 140px;
+        padding: 8px;
+    }
+    
+    .game-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 6px;
+    }
+    
+    .game-title {
+        font-size: 14px;
+    }
+    
+    .access-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    
+    .main-content {
+        flex-direction: column;
+    }
+}

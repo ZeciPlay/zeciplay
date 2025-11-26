@@ -1,0 +1,87 @@
+[
+  {
+    "nome": "Bad Time Simulator",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXtqqaLHPkkXgldJptxEHBLgtBFmZm_RPIB08eyL9l8VbsLTP1O1VkrIZZ&s=10",
+    "extra": "Dont Need Control",
+    "link": "https://jcw87.github.io/c2-sans-fight/"
+  },
+   {
+    "nome": "Mario 64",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQejw5BqewuvRgN8dh8AN833z6QwlZMaNCrwA&s",
+    "extra": "Need Controller/Keyboard",
+    "link": "https://arkshocer.github.io/sm64/"
+  },
+     {
+    "nome": "GeoFS",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQB6WVaA3XNIqhlm4Rq8rMD-lHW-x2v3uGbw&s",
+    "extra": "Dont Need Control",
+    "link": "https://www.geo-fs.com/geofs.php?v=3.9"
+  },
+   {
+    "nome": "Doom",
+    "tamanho": "5mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKsz0agkUOzpYJORLg_cYxoRSv9urpnhVy_22QwzxA5JcRIBeWvlP7MmU&s=10",
+    "extra": "Need Controller/Keyboard",
+    "link": "https://ustymukhman.github.io/webDOOM/public/"
+  },
+  {
+    "nome": "DuckHunter",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEYSmCSZ3Y27mptbodQiu3kJcEpGPLFc-ZERIzjoV2fSWTK1uD0FHnTRE&s=10",
+    "extra": "Dont Need Control",
+    "link": "https://duckhuntjs.com/"
+  },
+  {
+    "nome": "ConnectFour",
+    "tamanho": "0mb",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/3367/3367465.png",
+    "extra": "Need Controller/Keyboard",
+    "link": "https://kenrick95.github.io/c4/"
+  },
+  {
+    "nome": "GeoGuessr",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbSPMhf_TeVANT7UFkMR0EmEWV3eyrpQC62w&s",
+    "extra": "Dont Need Control",
+    "link": "https://openguessr.com/"
+  },
+  {
+    "nome": "Contexto",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWGGsLtuGgxiQG40DCHSPsd60eVbCv-Z0NQRGDignqKzi4TruQtR2XXf-Q&s=10",
+    "extra": "Dont Need Control",
+    "link": "https://contexto.me/pt/"
+  },
+  {
+    "nome": "Termo",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YabasRsJ10v5T8lgxOSO9NFfzn7m9nrxDg&s",
+    "extra": "Dont Need Control",
+    "link": "https://term.ooo/"
+  },
+  {
+    "nome": "Coil",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLiy6D8LHTSo9jFDoil2jHTxx1ClvUA97Kg&s",
+    "extra": "Dont Need Control",
+    "link": "https://lab.hakim.se/coil/"
+  },
+  {
+    "nome": "OnLaughtArena",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcdy89raUilUcFVKJWLhn_LIY5bCSgG6o_YA&s",
+    "extra": "Need Controller/Keyboard",
+    "link": "http://arcade.lostdecadegames.com/onslaught-arena/"
+  },
+  {
+    "nome": "Pokémon Showdown",
+    "tamanho": "0mb",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXHuzzs5eLKkAA8JcI2f68Ilcj-exUVNs76A&s",
+    "extra": "Dont Need Control",
+    "link": "https://play.pokemonshowdown.com/"
+  }
+  
+]
