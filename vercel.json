@@ -55,62 +55,62 @@
     {
       "source": "/Android/Dm7Android.html",
       "destination": "/android/dm7",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/htmls/Mobile.html",
       "destination": "/mobile",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/htmls/port.html",
       "destination": "/port",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/htmls/gameloft.html",
       "destination": "/gameloft",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/htmls/webgames.html",
       "destination": "/webgames",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/undertale/unindex.html",
       "destination": "/undertale",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/DDLC/ddlc.html",
       "destination": "/ddlc",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/M/memorial.html",
       "destination": "/memorial",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/jogos/ATCW/ATCard.html",
       "destination": "/adventure-time-card-wars",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/jogos/ACP/ACP.html",
       "destination": "/assassins-creed-pirates",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/jogos/Bal/Bal.html",
       "destination": "/balatro",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/jogos/Terraria/terindex.html",
       "destination": "/terraria",
-      "permanent": true
+      "permanent": false
     }
   ]
 }
