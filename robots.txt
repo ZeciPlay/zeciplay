@@ -1,7 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://dica7.vercel.app/mainsitemap-atom.xml
-Sitemap: https://dica7.vercel.app/sitemap.xml
-Sitemap: https://dica7.vercel.app/secondarysitemap-atom.xml
-Sitemap: https://dica7.vercel.app/gamessitemap-atom.xml
+Sitemap: https://dm7webofficial.vercel.app/sitemap.xml
