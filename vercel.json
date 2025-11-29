@@ -1,21 +1,32 @@
 {
   "version": 2,
-  "buildCommand": null,
-  "outputDirectory": ".",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
+  "functions": {},
+  "builds": [
     {
-      "source": "/teste-rewrite",
-      "destination": "/Android/Dm7Android.html"
+      "src": "*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/teste-final",
+      "dest": "/Android/Dm7Android.html"
     },
     {
-      "source": "/android/dm7",
-      "destination": "/Android/Dm7Android.html"
+      "src": "/android/dm7",
+      "dest": "/Android/Dm7Android.html"
     },
     {
-      "source": "/mobile",
-      "destination": "/htmls/Mobile.html"
+      "src": "/mobile",
+      "dest": "/htmls/Mobile.html"
+    },
+    {
+      "src": "/port",
+      "dest": "/htmls/port.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
