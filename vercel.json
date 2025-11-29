@@ -1,116 +1,27 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/android/dm7",
-      "destination": "/Android/Dm7Android.html"
-    },
-    {
-      "source": "/mobile",
-      "destination": "/htmls/Mobile.html"
-    },
-    {
-      "source": "/port",
-      "destination": "/htmls/port.html"
-    },
-    {
-      "source": "/gameloft",
-      "destination": "/htmls/gameloft.html"
-    },
-    {
-      "source": "/webgames",
-      "destination": "/htmls/webgames.html"
-    },
-    {
-      "source": "/undertale",
-      "destination": "/undertale/unindex.html"
-    },
-    {
-      "source": "/ddlc",
-      "destination": "/DDLC/ddlc.html"
-    },
-    {
-      "source": "/memorial",
-      "destination": "/M/memorial.html"
-    },
-    {
-      "source": "/adventure-time-card-wars",
-      "destination": "/jogos/ATCW/ATCard.html"
-    },
-    {
-      "source": "/assassins-creed-pirates",
-      "destination": "/jogos/ACP/ACP.html"
-    },
-    {
-      "source": "/balatro",
-      "destination": "/jogos/Bal/Bal.html"
-    },
-    {
-      "source": "/terraria",
-      "destination": "/jogos/Terraria/terindex.html"
+      "src": "**/*.html",
+      "use": "@vercel/static"
     }
   ],
-  "redirects": [
+  "routes": [
     {
-      "source": "/Android/Dm7Android.html",
-      "destination": "/android/dm7",
-      "permanent": false
+      "src": "/teste-agora",
+      "dest": "/Android/Dm7Android.html"
     },
     {
-      "source": "/htmls/Mobile.html",
-      "destination": "/mobile",
-      "permanent": false
+      "src": "/android/dm7",
+      "dest": "/Android/Dm7Android.html"
     },
     {
-      "source": "/htmls/port.html",
-      "destination": "/port",
-      "permanent": false
+      "src": "/mobile",
+      "dest": "/htmls/Mobile.html"
     },
     {
-      "source": "/htmls/gameloft.html",
-      "destination": "/gameloft",
-      "permanent": false
-    },
-    {
-      "source": "/htmls/webgames.html",
-      "destination": "/webgames",
-      "permanent": false
-    },
-    {
-      "source": "/undertale/unindex.html",
-      "destination": "/undertale",
-      "permanent": false
-    },
-    {
-      "source": "/DDLC/ddlc.html",
-      "destination": "/ddlc",
-      "permanent": false
-    },
-    {
-      "source": "/M/memorial.html",
-      "destination": "/memorial",
-      "permanent": false
-    },
-    {
-      "source": "/jogos/ATCW/ATCard.html",
-      "destination": "/adventure-time-card-wars",
-      "permanent": false
-    },
-    {
-      "source": "/jogos/ACP/ACP.html",
-      "destination": "/assassins-creed-pirates",
-      "permanent": false
-    },
-    {
-      "source": "/jogos/Bal/Bal.html",
-      "destination": "/balatro",
-      "permanent": false
-    },
-    {
-      "source": "/jogos/Terraria/terindex.html",
-      "destination": "/terraria",
-      "permanent": false
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }

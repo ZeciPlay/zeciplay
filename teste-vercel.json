@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/teste-simples",
-      "destination": "/Android/Dm7Android.html"
-    }
-  ]
-}
