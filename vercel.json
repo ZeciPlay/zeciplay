@@ -1,17 +1,32 @@
 {
   "version": 2,
-  "functions": {},
   "builds": [
     {
-      "src": "*.html",
+      "src": "**/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.js", 
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.jpg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.gif",
       "use": "@vercel/static"
     }
   ],
   "routes": [
-    {
-      "src": "/teste-final",
-      "dest": "/Android/Dm7Android.html"
-    },
     {
       "src": "/android/dm7",
       "dest": "/Android/Dm7Android.html"
@@ -23,6 +38,46 @@
     {
       "src": "/port",
       "dest": "/htmls/port.html"
+    },
+    {
+      "src": "/gameloft",
+      "dest": "/htmls/gameloft.html"
+    },
+    {
+      "src": "/webgames",
+      "dest": "/htmls/webgames.html"
+    },
+    {
+      "src": "/undertale",
+      "dest": "/undertale/unindex.html"
+    },
+    {
+      "src": "/ddlc",
+      "dest": "/DDLC/ddlc.html"
+    },
+    {
+      "src": "/memorial", 
+      "dest": "/M/memorial.html"
+    },
+    {
+      "src": "/adventure-time-card-wars",
+      "dest": "/jogos/ATCW/ATCard.html"
+    },
+    {
+      "src": "/assassins-creed-pirates",
+      "dest": "/jogos/ACP/ACP.html"
+    },
+    {
+      "src": "/balatro",
+      "dest": "/jogos/Bal/Bal.html"
+    },
+    {
+      "src": "/terraria",
+      "dest": "/jogos/Terraria/terindex.html"
+    },
+    {
+      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|ico|svg|xml|txt))",
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",
