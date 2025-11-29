@@ -1,0 +1,135 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/android/dm7",
+      "destination": "/Android/Dm7Android.html"
+    },
+    {
+      "source": "/mobile",
+      "destination": "/htmls/Mobile.html"
+    },
+    {
+      "source": "/port",
+      "destination": "/htmls/port.html"
+    },
+    {
+      "source": "/gameloft",
+      "destination": "/htmls/gameloft.html"
+    },
+    {
+      "source": "/webgames",
+      "destination": "/htmls/webgames.html"
+    },
+    {
+      "source": "/undertale",
+      "destination": "/undertale/unindex.html"
+    },
+    {
+      "source": "/ddlc",
+      "destination": "/DDLC/ddlc.html"
+    },
+    {
+      "source": "/memorial",
+      "destination": "/M/memorial.html"
+    },
+    {
+      "source": "/adventure-time-card-wars",
+      "destination": "/jogos/ATCW/ATCard.html"
+    },
+    {
+      "source": "/assassins-creed-pirates",
+      "destination": "/jogos/ACP/ACP.html"
+    },
+    {
+      "source": "/balatro",
+      "destination": "/jogos/Bal/Bal.html"
+    },
+    {
+      "source": "/terraria",
+      "destination": "/jogos/Terraria/terindex.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/Android/Dm7Android.html",
+      "destination": "/android/dm7",
+      "permanent": true
+    },
+    {
+      "source": "/htmls/Mobile.html",
+      "destination": "/mobile",
+      "permanent": true
+    },
+    {
+      "source": "/htmls/port.html",
+      "destination": "/port",
+      "permanent": true
+    },
+    {
+      "source": "/htmls/gameloft.html",
+      "destination": "/gameloft",
+      "permanent": true
+    },
+    {
+      "source": "/htmls/webgames.html",
+      "destination": "/webgames",
+      "permanent": true
+    },
+    {
+      "source": "/undertale/unindex.html",
+      "destination": "/undertale",
+      "permanent": true
+    },
+    {
+      "source": "/DDLC/ddlc.html",
+      "destination": "/ddlc",
+      "permanent": true
+    },
+    {
+      "source": "/M/memorial.html",
+      "destination": "/memorial",
+      "permanent": true
+    },
+    {
+      "source": "/jogos/ATCW/ATCard.html",
+      "destination": "/adventure-time-card-wars",
+      "permanent": true
+    },
+    {
+      "source": "/jogos/ACP/ACP.html",
+      "destination": "/assassins-creed-pirates",
+      "permanent": true
+    },
+    {
+      "source": "/jogos/Bal/Bal.html",
+      "destination": "/balatro",
+      "permanent": true
+    },
+    {
+      "source": "/jogos/Terraria/terindex.html",
+      "destination": "/terraria",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}
