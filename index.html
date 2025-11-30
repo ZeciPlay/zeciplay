@@ -9,8 +9,8 @@
     <!-- Open Graph -->
     <meta property="og:title" content="DM7Web - Free Android Games & APK Downloads">
     <meta property="og:description" content="Download free Android games, premium APKs, mobile games, and fan games.">
-    <meta property="og:image" content="https://dm7webofficial.vercel.app/1.jpg">
-    <meta property="og:url" content="https://dm7webofficial.vercel.app">
+    <meta property="og:image" content="https://dica7.vercel.app/1.jpg">
+    <meta property="og:url" content="https://dica7.vercel.app">
     <meta property="og:type" content="website">
     
     <!-- Favicon & CSS -->
@@ -39,13 +39,13 @@
                 <span class="logo-text">DM7Web</span>
             </div>
             <h1>Android Hub</h1>
-            <p class="hero-subtitle"> Mobile Games & Other Midias</p>
+            <p class="hero-subtitle">Mobile Games & Other Media</p>
         </div>
     </header>
 
     <main class="hub-section">
         <div class="seo-description">
-            <p>Discover the: Android Games, Ports, Web Games and Game Memorial, Other Media Coming Soon.</p>
+            <p>Discover the best collection of Android Games, Ports, Web Games, Game Memorial and more. Regular updates with new content!</p>
         </div>
         
         <div class="hub-grid">
@@ -137,38 +137,44 @@
         </div>
     </main>
 
-    <!-- Mini Player de Música -->
+    <!-- Music Player Bar -->
     <div id="musicPlayer" class="music-player">
         <div class="player-container">
             <div class="player-content">
-                <div class="album-art">
-                    <img src="./MRD.jpg" alt="Album Art" id="albumArt" onerror="this.style.display='none'">
+                <!-- Ícone da música (imagem do álbum) -->
+                <div class="music-icon">
+                    <img src="./MRD.jpg" alt="Album Art" class="album-art" onerror="this.style.display='none'">
                 </div>
-                <div class="player-controls">
-                    <div class="main-controls">
-                        <button id="playPauseBtn" class="control-btn">
-                            <span class="play-icon">▶</span>
-                            <span class="pause-icon" style="display: none;">❚❚</span>
-                        </button>
-                        <button id="restartBtn" class="control-btn">↺</button>
-                        <button id="closePlayerBtn" class="control-btn close-btn">×</button>
+                
+                <!-- Botão play ao lado do ícone -->
+                <button id="playPauseBtn" class="player-btn">
+                    <span class="play-icon">▶</span>
+                    <span class="pause-icon" style="display: none;">❚❚</span>
+                </button>
+                
+                <!-- Área central com nome da música e barra de progresso -->
+                <div class="music-controls">
+                    <div class="track-info">
+                        <span class="track-title">MRD - Recommended Music</span>
                     </div>
-                    
-                    <div class="end-controls" style="display: none;">
-                        <button id="downloadBtn" class="end-btn">
-                            <span class="download-icon">⬇</span>
-                            <span class="download-text">Download</span>
-                        </button>
-                        <a href="https://youtu.be/2ZErqrL6K8?si=EuXJlSIpOaLNhBAF" id="ytLink" class="end-btn" target="_blank">
-                            <span class="yt-icon">▶</span>
-                        </a>
-                        <button id="playbackBtn" class="end-btn">
-                            <span class="playback-icon">↺</span>
-                        </button>
+                    <div class="progress-container">
+                        <input type="range" id="progressBar" class="progress-bar" min="0" max="100" value="0">
                     </div>
+                </div>
+                
+                <!-- Botões à direita -->
+                <div class="player-buttons">
+                    <button id="restartBtn" class="player-btn">↺</button>
+                    <button id="minimizeBtn" class="player-btn minimize">↓</button>
+                    <button id="closePlayerBtn" class="player-btn close">×</button>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Barra minimizada (FORA do music-player) -->
+    <div class="minimized-player" style="display: none;">
+        <button id="expandBtn" class="player-btn expand">↑</button>
     </div>
 
     <footer class="footer">
@@ -176,7 +182,7 @@
             <p>&copy; 2025 DM7Web. All rights reserved.</p>
             <p>EzequiasWork@outlook.com</p>
             <div class="social-links">
-                   <a href="https://t.me/dm7webofficial" class="social-link">Telegram Group</a>
+                <a href="https://t.me/dm7webofficial" class="social-link">Telegram Group</a>
                 <a href="https://t.me/jddidjio" class="social-link">Telegram Channel</a>
                 <a href="https://www.tiktok.com/@dm7webofficial?_t=ZM-90qocZ7Ry9s&_r=1" class="social-link">TikTok</a>
             </div>

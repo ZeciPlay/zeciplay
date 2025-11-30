@@ -45,6 +45,7 @@ function preloadImages() {
 
 let audioPlayer = null;
 let isPlaying = false;
+let isMinimized = false;
 
 function initializeMusicPlayer() {
     console.log('Inicializando player de música...');
@@ -53,26 +54,63 @@ function initializeMusicPlayer() {
     
     audioPlayer.addEventListener('ended', function() {
         console.log('Música terminou');
-        showEndControls();
+        restartMusic();
     });
     
     audioPlayer.addEventListener('error', function(e) {
         console.log('Erro no áudio:', e);
     });
     
-    document.getElementById('playPauseBtn').addEventListener('click', togglePlayPause);
-    document.getElementById('restartBtn').addEventListener('click', restartMusic);
-    document.getElementById('closePlayerBtn').addEventListener('click', closePlayer);
-    document.getElementById('playbackBtn').addEventListener('click', playbackMusic);
-    
-    document.getElementById('downloadBtn').addEventListener('click', function() {
-        const link = document.createElement('a');
-        link.href = './MRD.mp3';
-        link.download = 'MRD_Musica_Recomendada.mp3';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+    audioPlayer.addEventListener('loadedmetadata', function() {
+        console.log('Metadados da música carregados');
     });
+    
+    audioPlayer.addEventListener('timeupdate', updateProgressBar);
+    
+    // Configurar eventos dos botões
+    const playPauseBtn = document.getElementById('playPauseBtn');
+    const restartBtn = document.getElementById('restartBtn');
+    const closePlayerBtn = document.getElementById('closePlayerBtn');
+    const minimizeBtn = document.getElementById('minimizeBtn');
+    const expandBtn = document.getElementById('expandBtn');
+    const progressBar = document.getElementById('progressBar');
+    const albumArt = document.querySelector('.album-art');
+    
+    if (playPauseBtn) {
+        playPauseBtn.addEventListener('click', togglePlayPause);
+        console.log('Botão play/pause configurado');
+    }
+    
+    if (restartBtn) {
+        restartBtn.addEventListener('click', restartMusic);
+        console.log('Botão restart configurado');
+    }
+    
+    if (closePlayerBtn) {
+        closePlayerBtn.addEventListener('click', closePlayer);
+        console.log('Botão close configurado');
+    }
+    
+    if (minimizeBtn) {
+        minimizeBtn.addEventListener('click', minimizePlayer);
+        console.log('Botão minimize configurado');
+    }
+    
+    if (expandBtn) {
+        expandBtn.addEventListener('click', expandPlayer);
+        console.log('Botão expand configurado');
+    }
+    
+    if (progressBar) {
+        progressBar.addEventListener('input', seekAudio);
+        console.log('Barra de progresso configurada');
+    }
+    
+    // Adicionar evento de clique na imagem do álbum para play/pause
+    if (albumArt) {
+        albumArt.addEventListener('click', togglePlayPause);
+        console.log('Imagem do álbum configurada');
+    }
     
     setTimeout(showPlayer, 3000);
 }
@@ -93,62 +131,91 @@ function togglePlayPause() {
     if (!isPlaying) {
         audioPlayer.play().then(() => {
             console.log('Música iniciada');
-            playIcon.style.display = 'none';
-            pauseIcon.style.display = 'inline';
-            albumArt.classList.add('playing');
+            if (playIcon) playIcon.style.display = 'none';
+            if (pauseIcon) pauseIcon.style.display = 'inline';
+            if (albumArt) albumArt.classList.add('playing');
             isPlaying = true;
         }).catch(error => {
             console.log('Erro ao reproduzir:', error);
         });
     } else {
         audioPlayer.pause();
-        playIcon.style.display = 'inline';
-        pauseIcon.style.display = 'none';
-        albumArt.classList.remove('playing');
+        if (playIcon) playIcon.style.display = 'inline';
+        if (pauseIcon) pauseIcon.style.display = 'none';
+        if (albumArt) albumArt.classList.remove('playing');
         isPlaying = false;
     }
 }
 
 function restartMusic() {
-    audioPlayer.currentTime = 0;
-    if (!isPlaying) {
-        togglePlayPause();
+    if (audioPlayer) {
+        audioPlayer.currentTime = 0;
+        if (!isPlaying) {
+            togglePlayPause();
+        }
     }
 }
 
 function closePlayer() {
-    if (isPlaying) {
+    if (isPlaying && audioPlayer) {
         audioPlayer.pause();
         isPlaying = false;
+        
+        const playIcon = document.querySelector('.play-icon');
+        const pauseIcon = document.querySelector('.pause-icon');
+        const albumArt = document.querySelector('.album-art');
+        
+        if (playIcon) playIcon.style.display = 'inline';
+        if (pauseIcon) pauseIcon.style.display = 'none';
+        if (albumArt) albumArt.classList.remove('playing');
     }
     const player = document.getElementById('musicPlayer');
-    player.style.display = 'none';
+    const minimizedPlayer = document.querySelector('.minimized-player');
+    
+    if (player) player.style.display = 'none';
+    if (minimizedPlayer) minimizedPlayer.style.display = 'none';
 }
 
-function showEndControls() {
-    const endControls = document.querySelector('.end-controls');
-    const mainControls = document.querySelector('.main-controls');
+function minimizePlayer() {
+    const player = document.getElementById('musicPlayer');
+    const minimizedPlayer = document.querySelector('.minimized-player');
     
-    endControls.style.display = 'flex';
-    mainControls.style.display = 'none';
-    
-    isPlaying = false;
-    const albumArt = document.querySelector('.album-art');
-    const playIcon = document.querySelector('.play-icon');
-    const pauseIcon = document.querySelector('.pause-icon');
-    
-    albumArt.classList.remove('playing');
-    playIcon.style.display = 'inline';
-    pauseIcon.style.display = 'none';
+    if (player && minimizedPlayer) {
+        player.classList.add('minimized');
+        minimizedPlayer.style.display = 'flex';
+        isMinimized = true;
+        console.log('Player minimizado');
+    }
 }
 
-function playbackMusic() {
-    const endControls = document.querySelector('.end-controls');
-    const mainControls = document.querySelector('.main-controls');
+function expandPlayer() {
+    const player = document.getElementById('musicPlayer');
+    const minimizedPlayer = document.querySelector('.minimized-player');
     
-    endControls.style.display = 'none';
-    mainControls.style.display = 'flex';
+    if (player && minimizedPlayer) {
+        player.classList.remove('minimized');
+        minimizedPlayer.style.display = 'none';
+        isMinimized = false;
+        console.log('Player expandido');
+    }
+}
+
+function updateProgressBar() {
+    if (!audioPlayer) return;
     
-    audioPlayer.currentTime = 0;
-    togglePlayPause();
+    const progressBar = document.getElementById('progressBar');
+    if (progressBar && audioPlayer.duration) {
+        const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+        progressBar.value = progress;
+    }
+}
+
+function seekAudio() {
+    if (!audioPlayer) return;
+    
+    const progressBar = document.getElementById('progressBar');
+    if (progressBar && audioPlayer.duration) {
+        const seekTime = (progressBar.value / 100) * audioPlayer.duration;
+        audioPlayer.currentTime = seekTime;
+    }
 }

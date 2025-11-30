@@ -5,14 +5,14 @@
 
   <!-- Páginas Principais - Alta Prioridade -->
   <url>
-    <loc>https://dm7webofficial.vercel.app/</loc>
+    <loc>https://dica7.vercel.app/</loc>
     <lastmod>2025-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://dm7webofficial.vercel.app/Android/Dm7Android.html</loc>
+    <loc>https://dica7.vercel.app/Android/Dm7Android.html</loc>
     <lastmod>2025-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -20,28 +20,28 @@
 
   <!-- Categorias de Jogos - Prioridade Média -->
   <url>
-    <loc>https://dm7webofficial.vercel.app/htmls/Mobile.html</loc>
+    <loc>https://dica7.vercel.app/htmls/Mobile.html</loc>
     <lastmod>2025-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://dm7webofficial.vercel.app/htmls/port.html</loc>
+    <loc>https://dica7.vercel.app/htmls/port.html</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://dm7webofficial.vercel.app/htmls/gameloft.html</loc>
+    <loc>https://dica7.vercel.app/htmls/gameloft.html</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://dm7webofficial.vercel.app/htmls/webgames.html</loc>
+    <loc>https://dica7.vercel.app/htmls/webgames.html</loc>
     <lastmod>2025-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -49,21 +49,21 @@
 
   <!-- Jogos Populares - Prioridade Média/Alta -->
   <url>
-    <loc>https://dm7webofficial.vercel.app/undertale/unindex.html</loc>
+    <loc>https://dica7.vercel.app/undertale/unindex.html</loc>
     <lastmod>2025-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://dm7webofficial.vercel.app/DDLC/ddlc.html</loc>
+    <loc>https://dica7.vercel.app/DDLC/ddlc.html</loc>
     <lastmod>2025-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://dm7webofficial.vercel.app/jogos/Terraria/terindex.html</loc>
+    <loc>https://dica7.vercel.app/jogos/Terraria/terindex.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -71,21 +71,21 @@
 
   <!-- Jogos Específicos - Prioridade Baixa/Média -->
   <url>
-    <loc>https://dm7webofficial.vercel.app/jogos/ATCW/ATCard.html</loc>
+    <loc>https://dica7.vercel.app/jogos/ATCW/ATCard.html</loc>
     <lastmod>2025-09-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://dm7webofficial.vercel.app/jogos/ACP/ACP.html</loc>
+    <loc>https://dica7.vercel.app/jogos/ACP/ACP.html</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://dm7webofficial.vercel.app/jogos/Bal/Bal.html</loc>
+    <loc>https://dica7.vercel.app/jogos/Bal/Bal.html</loc>
     <lastmod>2025-09-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -93,7 +93,7 @@
 
   <!-- Páginas Especiais -->
   <url>
-    <loc>https://dm7webofficial.vercel.app/M/memorial.html</loc>
+    <loc>https://dica7.vercel.app/M/memorial.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
