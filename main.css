@@ -6,32 +6,10 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #0c0c0c;
+    background: #0a0a0a;
     color: #fff;
-    line-height: 1.6;
-    padding-bottom: 70px;
-}
-
-.particles-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none;
-}
-
-.particle {
-    position: absolute;
-    background: rgba(255, 178, 42, 0.1);
-    border-radius: 50%;
-    animation: float 15s infinite ease-in-out;
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0) translateX(0); }
-    50% { transform: translateY(-15px) translateX(8px); }
+    line-height: 1.5;
+    padding-bottom: 60px;
 }
 
 .hero {
@@ -39,8 +17,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
-    min-height: 400px;
+    height: 35vh;
+    min-height: 250px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -52,7 +30,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
@@ -72,23 +50,19 @@ body {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .logo-text {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #ffb22a;
 }
 
 .hero h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: #ffb22a;
 }
 
@@ -98,65 +72,57 @@ body {
 }
 
 .hub-section {
-    padding: 40px 20px;
+    padding: 30px 20px;
     position: relative;
     z-index: 1;
-}
-
-.seo-description {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 40px;
-    color: #ccc;
-    font-size: 1.1rem;
 }
 
 .hub-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
+    gap: 20px;
     max-width: 1200px;
-    margin: 0 auto 30px;
+    margin: 0 auto;
 }
 
 .hub-card {
-    background: #1a1a1a;
-    padding: 25px;
-    border-radius: 12px;
-    border: 1px solid #333;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.hub-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(255, 178, 42, 0.1);
+    background: #151515;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #2a2a2a;
+    text-align: center;
 }
 
 .card-content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .card-main {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
+    justify-content: center;
 }
 
 .card-main img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     object-fit: cover;
     border-radius: 8px;
-    border: 2px solid #333;
+    border: 1px solid #333;
+}
+
+.card-text {
+    text-align: left;
 }
 
 .card-text .title {
     font-size: 1.1rem;
     font-weight: 600;
     color: #ffb22a;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .card-text .description {
@@ -167,30 +133,23 @@ body {
 .card-subcategories {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 6px;
+    justify-content: center;
 }
 
 .sub-item {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 8px 12px;
+    padding: 4px 8px;
     background: rgba(255, 178, 42, 0.05);
-    border-radius: 6px;
+    border-radius: 4px;
     border: 1px solid rgba(255, 178, 42, 0.1);
     text-decoration: none;
     color: inherit;
-    max-width: 180px;
-    transition: all 0.3s ease;
-}
-
-.sub-item:hover {
-    background: rgba(255, 178, 42, 0.15);
-    transform: translateX(5px);
 }
 
 .sub-title {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: #ccc;
     font-weight: 500;
 }
@@ -203,18 +162,17 @@ body {
 
 .github-updates { 
     text-align: center; 
-    margin: 2rem 0; 
+    margin: 25px 0; 
 }
 
 .github-btn { 
     background: #333; 
     color: white; 
-    padding: 12px 24px; 
+    padding: 10px 20px; 
     border-radius: 6px; 
     cursor: pointer;
     border: 1px solid #ffb22a;
-    transition: all 0.3s ease;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .github-btn:hover {
@@ -241,26 +199,23 @@ body {
 .social-link {
     color: #ffb22a;
     text-decoration: none;
-    padding: 6px 12px;
+    padding: 5px 10px;
     border: 1px solid #ffb22a;
     border-radius: 4px;
-    font-size: 0.85rem;
-    margin: 0 5px;
+    font-size: 0.8rem;
+    margin: 0 4px;
 }
 
-/* Music Player Bar */
 .music-player {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(26, 26, 26, 0.95);
+    background: rgba(21, 21, 21, 0.98);
     border-top: 1px solid #ffb22a;
     z-index: 1000;
     display: none;
-    backdrop-filter: blur(10px);
-    height: 70px;
-    transition: height 0.3s ease;
+    height: 55px;
 }
 
 .player-container {
@@ -268,7 +223,6 @@ body {
     margin: 0 auto;
     padding: 0 1rem;
     height: 100%;
-    position: relative;
 }
 
 .player-content {
@@ -278,39 +232,26 @@ body {
     padding: 0 10px;
 }
 
-/* Imagem do álbum */
 .music-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45px;
-    height: 45px;
-    margin-right: 10px;
+    width: 42px;
+    height: 42px;
+    margin-right: 15px;
     flex-shrink: 0;
 }
 
 .album-art {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 6px;
     object-fit: cover;
-    border: 2px solid #ffb22a;
-    transition: transform 0.3s ease;
-    cursor: pointer;
+    border: 1px solid #ffb22a;
 }
 
-.album-art.playing {
-    animation: rotate 10s linear infinite;
-}
-
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-/* Botão play ao lado do ícone */
 #playPauseBtn {
-    margin-right: 15px;
+    margin-right: 20px;
     flex-shrink: 0;
 }
 
@@ -319,21 +260,36 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 4px;
     margin: 0 15px;
 }
 
 .track-info {
-    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
 }
 
 .track-title {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #ffb22a;
     font-weight: 500;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.time-display {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.65rem;
+    color: #999;
+}
+
+.time-separator {
+    color: #ffb22a;
+    font-size: 0.5rem;
 }
 
 .progress-container {
@@ -342,11 +298,11 @@ body {
 
 .progress-bar {
     width: 100%;
-    height: 4px;
+    height: 3px;
     -webkit-appearance: none;
     appearance: none;
     background: #333;
-    border-radius: 2px;
+    border-radius: 1px;
     outline: none;
     cursor: pointer;
 }
@@ -354,16 +310,16 @@ body {
 .progress-bar::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: #ffb22a;
     cursor: pointer;
 }
 
 .progress-bar::-moz-range-thumb {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: #ffb22a;
     cursor: pointer;
@@ -372,7 +328,7 @@ body {
 
 .player-buttons {
     display: flex;
-    gap: 8px;
+    gap: 6px;
     align-items: center;
 }
 
@@ -380,15 +336,14 @@ body {
     background: #333;
     border: 1px solid #ffb22a;
     color: #ffb22a;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     flex-shrink: 0;
 }
 
@@ -405,33 +360,30 @@ body {
 
 .player-btn.close:hover {
     background: #ff6666;
-    border-color: #ff6666;
 }
 
-/* Barra minimizada */
 .minimized-player {
     position: fixed;
     bottom: 0;
     right: 15px;
-    background: rgba(26, 26, 26, 0.9);
+    background: rgba(21, 21, 21, 0.95);
     border: 1px solid #ffb22a;
     border-bottom: none;
-    border-radius: 8px 8px 0 0;
-    padding: 5px 10px;
+    border-radius: 6px 6px 0 0;
+    padding: 4px 8px;
     display: none;
     align-items: center;
     justify-content: center;
-    height: 35px;
+    height: 30px;
     z-index: 1001;
 }
 
 .player-btn.expand {
-    width: 25px;
-    height: 25px;
-    font-size: 0.8rem;
+    width: 22px;
+    height: 22px;
+    font-size: 0.7rem;
 }
 
-/* Estados da barra de música */
 .music-player.minimized {
     height: 0;
     overflow: hidden;
@@ -446,52 +398,23 @@ body {
     display: flex;
 }
 
-/* Image Loading States */
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-img.img-error {
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffb22a;
-    font-size: 0.7rem;
-    text-align: center;
-}
-
-.img-loading {
-    background: linear-gradient(90deg, #1a1a1a 25%, #333 50%, #1a1a1a 75%);
-    background-size: 200% 100%;
-    animation: loading 1.5s infinite;
-}
-
-@keyframes loading {
-    0% { background-position: 200% 0; }
-    100% { background-position: -200% 0; }
-}
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero {
-        height: 40vh;
-        min-height: 300px;
+        height: 30vh;
+        min-height: 200px;
     }
     
     .hero h1 { 
-        font-size: 1.6rem; 
+        font-size: 1.5rem; 
     }
     
     .logo-text { 
-        font-size: 1.5rem; 
+        font-size: 1.4rem; 
     }
     
     .hub-grid { 
         grid-template-columns: 1fr; 
-        gap: 20px;
+        gap: 15px;
     }
     
     .hub-card { 
@@ -499,118 +422,36 @@ img.img-error {
     }
     
     .music-player {
-        height: 80px;
-    }
-    
-    .player-content {
-        padding: 5px 10px;
-    }
-    
-    .music-controls {
-        margin: 0 10px;
-    }
-    
-    .music-icon {
-        width: 40px;
-        height: 40px;
-        margin-right: 8px;
+        height: 60px;
     }
     
     .minimized-player {
         right: 10px;
-        bottom: 0;
     }
     
     body {
-        padding-bottom: 80px;
+        padding-bottom: 60px;
     }
 }
 
 @media (max-width: 480px) {
     .hero h1 { 
-        font-size: 1.4rem; 
+        font-size: 1.3rem; 
     }
     
     .hub-section {
-        padding: 30px 15px;
-    }
-    
-    .seo-description {
-        font-size: 1rem;
-        margin-bottom: 30px;
+        padding: 20px 15px;
     }
     
     .track-title {
         font-size: 0.75rem;
     }
     
-    .player-buttons {
-        gap: 5px;
-    }
-    
-    .player-btn {
-        width: 28px;
-        height: 28px;
-        font-size: 0.8rem;
-    }
-    
-    .music-icon {
-        width: 35px;
-        height: 35px;
+    .time-display {
+        font-size: 0.6rem;
     }
     
     .minimized-player {
-        right: 5px;
-        bottom: 0;
+        right: 8px;
     }
-}
-
-/* Estilos para quando a imagem do álbum não carrega */
-.album-art:not([src]), 
-.album-art[src=""],
-.album-art[src*="error"] {
-    background: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffb22a;
-    font-size: 0.7rem;
-    text-align: center;
-}
-
-.album-art:not([src])::before, 
-.album-art[src=""]::before,
-.album-art[src*="error"]::before {
-    content: "🎵";
-    font-size: 1.2rem;
-}
-
-/* Melhorias de acessibilidade */
-.player-btn:focus,
-.progress-bar:focus {
-    outline: 2px solid #ffb22a;
-    outline-offset: 2px;
-}
-
-/* Animações suaves para todas as transições */
-* {
-    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-}
-
-/* Scrollbar personalizada para navegadores WebKit */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: #1a1a1a;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #ffb22a;
-    border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #e6a026;
 }
