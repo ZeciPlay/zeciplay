@@ -1,0 +1,32 @@
+{
+  "game": {
+    "title": "Forager",
+    "version": "1.0.13",
+    "size": "129MB",
+    "description": "Forager is a 2D open world game inspired by exploration, farming, crafting, and automation games. Gather resources, craft tools, build structures, farm crops, fish, cook, explore dungeons, and automate your processes to become the ultimate forager! Grow from a simple survivor to a master of industry in this addictive idle/clicker combined with sandbox simulation.",
+    "specifications": {
+      "architecture": "32-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "6~28 Hours",
+      "releaseDate": "April/18/2019",
+      "languages": "English, Deutsch, Español, Français, Italiano, Português, Русский, 日本語, 한국어, 简体中文, 繁體中文, Türkçe",      "gameType": "Sandbox, Crafting, Simulation, Adventure, <br>Idle, Indie"
+    },
+    "banner": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000013004/cb7d7124c0eff5b153cfeec1dea93d4bb77436e3a33dfae12c47bc3a6dfcb56d",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGp6oZH9c5I9ABhNbM2OC-nRdd4GONkstdzOKxhNi3qw&s=10",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYBg31vlQkW2q0zxlAtIs-_gqZBTZ5NacDfcIQkQ6Bkw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs8vyCSddgzGmSPvJZXG9roEBGndPEPQ1R3Oxg8ATiw&s=10"
+    ]
+  },
+  "achievements": [
+    {
+    "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

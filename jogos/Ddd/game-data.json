@@ -1,122 +1,32 @@
 {
   "game": {
-    "title": "Adventure Time: Card Wars",
-    "version": "1.15.0",
-    "size": "200mb",
-    "description": "Card Wars is a special card game inspired by the famous cartoon episode 'Adventure Time'. This game combines elements of card combat with the phantasmagoric world of Adventure Time, giving players a unique and exciting experience.",
+    "title": "Dandara: Trials of Fear Edition",
+    "version": "1.5.24",
+    "size": "498mb",
+    "description": "Dandara is a unique metroidvania platformer set in a surreal, gravity-defying world. You play as Dandara, a brave heroine who must restore balance to a oppressed world by battling enemies and exploring a non-linear dreamlike world with innovative movement mechanics.",
     "specifications": {
-      "architecture": "32-bit",
+      "architecture": "64-bit",
       "ts": "✅ Supported",
-      "gamepad": "❌ Supported",
-      "keyboard": "❌Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
       "fullscreen": "✅ Supported",
-      "playtime": "45~60 Hours",
-      "releaseDate": "February/7/2024",
-      "languages": "English, Español, Português Brasileiro",
-      "gameType": "Card Battle Game, Collectible Card Game (CCG), Strategy, <br>Turn-Based, Fantasy"
+      "playtime": "20~38 Hours",
+      "releaseDate": "February/6/2018",
+      "languages": "English, Español, Português, Français, Deutsch, Русский, 中文",
+      "gameType": "Metroidvania, Platformer, Adventure, Action, <br>Indie, 2D"
     },
-    "banner": "https://cdn-www.bluestacks.com/bs-images/card-war-kingdom_banner.jpg",
-    "icon": "1.png",    
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhTeGjQlN_Lbxqn7Oinf4jckfmkK4T8LXQFuZBTHaGjj6gGoL66jGXnWy-&s=10",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuMTQamfaAyK2x9Xb56Vf8lJq1hOqeHtkPiGlcsTvV5Q&s",    
     "screenshots": [
-      "https://techylist.com/wp-content/uploads/2023/03/Card-Wars-Sceenshot-8.jpg",
-      "https://i.imgur.com/cXUolY0.jpg"
-    ]
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8Uzbik9MizkL-VI_zG9GYZZy4iaATp4_8VcUWGgtqw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdrxs_l1n9qx1F4u60t_kCgn9ui6vB-Dr_b9KmaAyQ3A&s=10"
+   ]
   },
   "achievements": [
     {
-      "id": 1,
-      "name": "Babe In the Woods",
-      "description": "Unlock quest 3",
-      "image": "1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Pig Flooper!",
-      "description": "Unlock quest 8",
-      "image": "1.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Party Dance Style!",
-      "description": "Unlock quest 15",
-      "image": "1.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Card Warrior!",
-      "description": "Unlock quest 30",
-      "image": "1.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Card Wars Super Amadeus!",
-      "description": "Unlock quest 50",
-      "image": "1.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Card Wars Cool Guy",
-      "description": "Unlock quest 99",
-      "image": "1.jpg"
-    },
-    {
-      "id": 7,
-      "name": "The Smell of Victory!",
-      "description": "Play an arena game",
-      "image": "1.jpg"
-    },
-    {
-      "id": 8,
-      "name": "CORNFIELDS ARE AWESOME!",
-      "description": "Level-up a hero to level 2",
-      "image": "1.jpg"
-    },
-    {
-      "id": 9,
-      "name": "For the Glory of Jakeoria!",
-      "description": "Level-up a hero to level 5",
-      "image": "1.jpg"
-    },
-    {
-      "id": 10,
-      "name": "The Five Winds waft!",
-      "description": "Level-up a hero to level 15",
-      "image": "1.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Card Wars Playa!",
-      "description": "Level-up a hero to level 30",
-      "image": "1.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Card Wars Summoner!",
-      "description": "Level-up a hero to level 50",
-      "image": "1.jpg"
-    },
-    {
-      "id": 13,
-      "name": "The Seas have Aligned!",
-      "description": "Rank #50 in Arena",
-      "image": "1.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Not that bad, I like it!",
-      "description": "Rank #10 in Arena",
-      "image": "1.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Pillar of righteousness, honor and might!",
-      "description": "Rank #1 in Arena",
-      "image": "1.jpg"
-    },
-    {
-      "id": 16,
-      "name": "Band of Heroes",
-      "description": "Unlock all hero cards",
+    "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
       "image": "1.jpg"
     }
   ]

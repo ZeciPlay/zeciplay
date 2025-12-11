@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Assassin's Creed Unity App",
+    "version": "1.0.5",
+    "size": "475MB",
+    "description": "This was the official companion app for Assassin's Creed: Unity, designed to enhance the main console/PC game experience. It allowed players to manage a brotherhood of assassins, send them on puzzle missions, unlock in-game items like outfits, and explore an interactive 3D map of Paris. All app-exclusive content was later integrated into the main game via patch. The app was retired from official stores years ago.",
+    "specifications": {
+      "architecture": "32-bit",
+      "ts": "✅ Supported",
+      "gamepad": "❌ Supported",
+      "keyboard": "❌ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "N/A",
+      "releaseDate": "November/11/2014",
+      "languages": "English, Français, Deutsch, Italiano, Español, Português",
+      "gameType": "Companion App, Puzzle, Management, <br>Sync Required"
+    },
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyN9NPfVwH_4UVqleCH1xhfSE64-x2jRv39FzsjIUoDw&s=10",
+    "icon": "https://sc.filehippo.net/images/t_app-icon-l/p/538bb0ce-9b32-11e6-aea5-00163ec9f5fa/139816348/assassins-creed-unity-companion-logo",
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG88h68LxuDy8FJmbRT3EA805Ap2hqRlimXX4HOYVBQg&s",
+      "https://img.appx4fun.com/d8/09/5e/b009f695-b5a5-4020-97a8-3cc9467168b7-screenshot-2.webp"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this app will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

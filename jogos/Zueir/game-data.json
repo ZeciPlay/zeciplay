@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Zueirama",
+    "version": "0.0.0.17",
+    "size": "151mb",
+    "description": "Zueirama is a casual game full of Brazilian humor and pranks. Enjoy various mini-games and funny situations inspired by Brazilian internet culture. Perfect for quick laughs and fun moments with friends.",
+    "specifications": {
+      "architecture": "32/64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "5~9 Hours",
+      "releaseDate": "August 6, 2019",
+      "languages": "Português (Brasil), Español, English",
+      "gameType": "Casual, Comedy, Brazilian, Funny, <br>Mini-games"
+    },
+    "banner": "https://i.ytimg.com/vi/ydybPLIT9XY/maxresdefault.jpg",
+    "icon": "https://img.tapimg.net/market/images/41b53c234fecd8d6d539e723a8113053.png",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQXDoHONn2WsjBuANdZf96DIxirm3z-nBEkWB-jLvhOg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4NJd-AEpCA2e91QEotQMV6ZCK5dnn-X3PnJL1lIWPhw&s=10"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

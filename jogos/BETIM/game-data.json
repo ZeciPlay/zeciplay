@@ -16,380 +16,79 @@
       "gameType": "Horror, Survival, Puzzle, Adventure, <br>First-Person, Indie"
     },
     "banner": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/622650/header.jpg?t=1762956668",
-    "icon": "1.png",    
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZOuJVHDnTRSyeUDHTr_yQkXYc2QnzCXE6MMH8hKEGNw&s=10",    
     "screenshots": [
       "https://images.squarespace-cdn.com/content/v1/63063c7b32acea0da5d3ca03/50921d99-ff95-4776-99ae-89d410a1d7ec/BATIM_Screenshot_01.png",
-      
-"https://images.igdb.com/igdb/image/upload/t_1080p/xp76ak3ysl1p7qom4c1q.jpg",
-      "https://www.nintendo-insider.com/wp-content/uploads/2018/10/bendy-and-the-ink-machine-screenshot.jpg"
+      "https://images.igdb.com/igdb/image/upload/t_1080p/xp76ak3ysl1p7qom4c1q.jpg"
     ]
   },
   "achievements": [
-    {
-      "id": 1,
-      "name": "Picking Up the Pieces",
-      "description": "Collect all the items",
-      "image": "1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Hello Bendy",
-      "description": "Fall through the floor",
-      "image": "2.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Crooner Tuner",
-      "description": "Turn on the radio in Chapter One",
-      "image": "3.jpg"
-    },
-    {
-      "id": 4,
-      "name": "The Past Speaks",
-      "description": "Listened to All Audio Logs in Chapter One",
-      "image": "4.jpg"
-    },
-    {
-      "id": 5,
-      "name": "My Favorite Song",
-      "description": "Solve the musical puzzle",
-      "image": "5.jpg"
-    },
-    {
-      "id": 6,
-      "name": "The Believer",
-      "description": "Survive being chased by Bendy",
-      "image": "6.jpg"
-    },
-    {
-      "id": 7,
-      "name": "A Special Hat",
-      "description": "Run into Jack Fain",
-      "image": "7.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Old Problems",
-      "description": "Listened to All Audio Logs in Chapter Two",
-      "image": "8.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Spare Parts",
-      "description": "Found all of Alice Angel's gears",
-      "image": "9.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Coast to Coast",
-      "description": "Turn on the radio in Chapter Two",
-      "image": "10.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Ultimate Stomachache",
-      "description": "Hunted down all Swollen Searchers",
-      "image": "11.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Feeling the Pressure",
-      "description": "Solved all valve panel puzzles",
-      "image": "12.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Anger Management",
-      "description": "Destroyed four Bendy cardboard cutouts in Chapter Three",
-      "image": "13.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Front Lines",
-      "description": "Survived the Butcher Gang's attack",
-      "image": "14.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Darker Places",
-      "description": "Survived the inky abyss",
-      "image": "15.jpg"
-    },
-    {
-      "id": 16,
-      "name": "Wasting Time",
-      "description": "Ring the bell",
-      "image": "16.jpg"
-    },
-    {
-      "id": 17,
-      "name": "Around And Around",
-      "description": "Defeat Bertrum",
-      "image": "17.jpg"
-    },
-    {
-      "id": 18,
-      "name": "A Haunting We Will Go",
-      "description": "Restore Power to the Haunted House",
-      "image": "18.jpg"
-    },
-    {
-      "id": 19,
-      "name": "Reunited",
-      "description": "Found Boris",
-      "image": "19.jpg"
-    },
-    {
-      "id": 20,
-      "name": "Shadows and Suffering",
-      "description": "Discover what's living below",
-      "image": "20.jpg"
-    },
-    {
-      "id": 21,
-      "name": "Still Listening",
-      "description": "Listen to All Audio Logs in Chapter Four",
-      "image": "21.jpg"
-    },
-    {
-      "id": 22,
-      "name": "Pipes and Problems",
-      "description": "Found a new way through",
-      "image": "22.jpg"
-    },
-    {
-      "id": 23,
-      "name": "To Hell and Back",
-      "description": "Complete the Main Story",
-      "image": "23.jpg"
-    },
-    {
-      "id": 24,
-      "name": "The Creator",
-      "description": "Visit theMeatly",
-      "image": "24.jpg"
-    },
-    {
-      "id": 25,
-      "name": "Johnny's Broken Heart",
-      "description": "Play the pipe organ 5 times",
-      "image": "25.jpg"
-    },
-    {
-      "id": 26,
-      "name": "The Path of the Demon",
-      "description": "Chose the way of Bendy",
-      "image": "26.jpg"
-    },
-    {
-      "id": 27,
-      "name": "The Path of the Angel",
-      "description": "Chose the way of Alice",
-      "image": "27.jpg"
-    },
-    {
-      "id": 28,
-      "name": "Turn It Up",
-      "description": "Turn on the radio in Chapter Three",
-      "image": "28.jpg"
-    },
-    {
-      "id": 29,
-      "name": "Now Hear This!",
-      "description": "Listen to All Audio Logs in Chapter Five",
-      "image": "29.jpg"
-    },
-    {
-      "id": 30,
-      "name": "Goldbricking",
-      "description": "Let others do the work",
-      "image": "30.jpg"
-    },
-    {
-      "id": 31,
-      "name": "Strike Up The Band",
-      "description": "Get all the Bendys on stage",
-      "image": "31.jpg"
-    },
-    {
-      "id": 32,
-      "name": "Knick-Knack Paddywhack",
-      "description": "Got the poor doggie a bone",
-      "image": "32.jpg"
-    },
-    {
-      "id": 33,
-      "name": "Finger Waggin",
-      "description": "Find the Radio in Chapter Four",
-      "image": "33.jpg"
-    },
-    {
-      "id": 34,
-      "name": "Bulls Eye",
-      "description": "Get a perfect score on Bull's Eye Bonanaza",
-      "image": "34.jpg"
-    },
-    {
-      "id": 35,
-      "name": "Norman's Fate",
-      "description": "Brought down The Projectionist",
-      "image": "35.jpg"
-    },
-    {
-      "id": 36,
-      "name": "A Little Souvenier",
-      "description": "Take a Photo at the Photo Cutout",
-      "image": "36.jpg"
-    },
-    {
-      "id": 37,
-      "name": "Call The Milk Man",
-      "description": "Get a perfect score on Bottle Wallop",
-      "image": "37.jpg"
-    },
-    {
-      "id": 38,
-      "name": "Man Behind the Curtain",
-      "description": "Visit theMeatly",
-      "image": "38.jpg"
-    },
-    {
-      "id": 39,
-      "name": "Standing Proud",
-      "description": "Find out where you belong",
-      "image": "39.jpg"
-    },
-    {
-      "id": 40,
-      "name": "Blazing Metal",
-      "description": "Unleashed the Tommy Gun",
-      "image": "40.jpg"
-    },
-    {
-      "id": 41,
-      "name": "Aggression",
-      "description": "Bathe in violence",
-      "image": "41.jpg"
-    },
-    {
-      "id": 42,
-      "name": "Barbecued",
-      "description": "Visit theMeatly",
-      "image": "42.jpg"
-    },
-    {
-      "id": 43,
-      "name": "A Taste of Home",
-      "description": "Collected all the Bacon Soup in Chapter One",
-      "image": "43.jpg"
-    },
-    {
-      "id": 44,
-      "name": "Going To Be Sick",
-      "description": "Go for a wild ride",
-      "image": "44.jpg"
-    },
-    {
-      "id": 45,
-      "name": "Long Forgotten Self",
-      "description": "Unearthed the sunken room",
-      "image": "45.jpg"
-    },
-    {
-      "id": 46,
-      "name": "Canadian Bacon",
-      "description": "Collect all the Bacon Soup in Chapter Two",
-      "image": "46.jpg"
-    },
-    {
-      "id": 47,
-      "name": "Inner Child",
-      "description": "Play with 25 Bendy Dolls",
-      "image": "47.jpg"
-    },
-    {
-      "id": 48,
-      "name": "Hearing Voices",
-      "description": "Listened to All Audio Logs in Chapter Three",
-      "image": "48.jpg"
-    },
-    {
-      "id": 49,
-      "name": "Toe Tappin",
-      "description": "Find the Radio in Chapter Five",
-      "image": "49.jpg"
-    },
-    {
-      "id": 50,
-      "name": "Tea Time",
-      "description": "Kicked back with theMeatly",
-      "image": "50.jpg"
-    },
-    {
-      "id": 51,
-      "name": "The Voice Collector",
-      "description": "Listen to All Audio Logs in the Game",
-      "image": "51.jpg"
-    },
-    {
-      "id": 52,
-      "name": "Gold Record",
-      "description": "Find all the Hidden Radios in the Game",
-      "image": "52.jpg"
-    },
-    {
-      "id": 53,
-      "name": "Unlikely Victory",
-      "description": "Complete Chapter Four with the Plunger",
-      "image": "53.jpg"
-    },
-    {
-      "id": 54,
-      "name": "A Sweet Discovery",
-      "description": "Say Hello to an Old Friend",
-      "image": "54.jpg"
-    },
-    {
-      "id": 55,
-      "name": "Bring Home the Bacon",
-      "description": "Collected all Bacon Soup in Chapter Three",
-      "image": "55.jpg"
-    },
-    {
-      "id": 56,
-      "name": "Grand Puppeteer",
-      "description": "Find theMeatly in All Chapters",
-      "image": "56.jpg"
-    },
-    {
-      "id": 57,
-      "name": "No Need for a Spoon",
-      "description": "Collect all the Bacon Soup in Chapter Five",
-      "image": "57.jpg"
-    },
-    {
-      "id": 58,
-      "name": "Just Like Mom Used To Make",
-      "description": "Collect all the Bacon Soup in Chapter Four",
-      "image": "58.jpg"
-    },
-    {
-      "id": 59,
-      "name": "Master of Bacon",
-      "description": "Collect all the Bacon Soup in the Game",
-      "image": "59.jpg"
-    },
-    {
-      "id": 60,
-      "name": "Valued Employee",
-      "description": "Take a longer walk",
-      "image": "60.jpg"
-    },
-    {
-      "id": 61,
-      "name": "Vintage Scares",
-      "description": "Visit Heavenly Toys during Ink Demon's Eve",
-      "image": "61.jpg"
-    }
+    { "id": 1, "name": "Picking Up the Pieces", "description": "Collect all the items", "image": "1.jpg" },
+    { "id": 2, "name": "Hello Bendy", "description": "Fall through the floor", "image": "2.jpg" },
+    { "id": 3, "name": "Crooner Tuner", "description": "Turn on the radio in Chapter One", "image": "3.jpg" },
+    { "id": 4, "name": "The Past Speaks", "description": "Listened to All Audio Logs in Chapter One", "image": "4.jpg" },
+    { "id": 5, "name": "My Favorite Song", "description": "Solve the musical puzzle", "image": "5.jpg" },
+    { "id": 6, "name": "The Believer", "description": "Survive being chased by Bendy", "image": "6.jpg" },
+    { "id": 7, "name": "A Special Hat", "description": "Run into Jack Fain", "image": "7.jpg" },
+    { "id": 8, "name": "Old Problems", "description": "Listened to All Audio Logs in Chapter Two", "image": "8.jpg" },
+    { "id": 9, "name": "Spare Parts", "description": "Found all of Alice Angel's gears", "image": "9.jpg" },
+    { "id": 10, "name": "Coast to Coast", "description": "Turn on the radio in Chapter Two", "image": "10.jpg" },
+
+    { "id": 11, "name": "Ultimate Stomachache", "description": "Hunted down all Swollen Searchers", "image": "11.jpg" },
+    { "id": 12, "name": "Feeling the Pressure", "description": "Solved all valve panel puzzles", "image": "12.jpg" },
+    { "id": 13, "name": "Anger Management", "description": "Destroyed four Bendy cardboard cutouts in Chapter Three", "image": "13.jpg" },
+    { "id": 14, "name": "Front Lines", "description": "Survived the Butcher Gang's attack", "image": "14.jpg" },
+    { "id": 15, "name": "Darker Places", "description": "Survived the inky abyss", "image": "15.jpg" },
+    { "id": 16, "name": "Wasting Time", "description": "Ring the bell", "image": "16.jpg" },
+    { "id": 17, "name": "Around And Around", "description": "Defeat Bertrum", "image": "17.jpg" },
+    { "id": 18, "name": "A Haunting We Will Go", "description": "Restore Power to the Haunted House", "image": "18.jpg" },
+    { "id": 19, "name": "Reunited", "description": "Found Boris", "image": "19.jpg" },
+    { "id": 20, "name": "Shadows and Suffering", "description": "Discover what's living below", "image": "20.jpg" },
+
+    { "id": 21, "name": "Still Listening", "description": "Listen to All Audio Logs in Chapter Four", "image": "21.jpg" },
+    { "id": 22, "name": "Pipes and Problems", "description": "Found a new way through", "image": "22.jpg" },
+    { "id": 23, "name": "To Hell and Back", "description": "Complete the Main Story", "image": "23.jpg" },
+    { "id": 24, "name": "The Creator", "description": "Visit theMeatly", "image": "24.jpg" },
+    { "id": 25, "name": "Johnny's Broken Heart", "description": "Play the pipe organ 5 times", "image": "25.jpg" },
+    { "id": 26, "name": "The Path of the Demon", "description": "Chose the way of Bendy", "image": "26.jpg" },
+    { "id": 27, "name": "The Path of the Angel", "description": "Chose the way of Alice", "image": "27.jpg" },
+    { "id": 28, "name": "Turn It Up", "description": "Turn on the radio in Chapter Three", "image": "28.jpg" },
+    { "id": 29, "name": "Now Hear This!", "description": "Listen to All Audio Logs in Chapter Five", "image": "29.jpg" },
+    { "id": 30, "name": "Goldbricking", "description": "Let others do the work", "image": "30.jpg" },
+
+    { "id": 31, "name": "Strike Up The Band", "description": "Get all the Bendys on stage", "image": "31.jpg" },
+    { "id": 32, "name": "Knick-Knack Paddywhack", "description": "Got the poor doggie a bone", "image": "32.jpg" },
+    { "id": 33, "name": "Finger Waggin", "description": "Find the Radio in Chapter Four", "image": "33.jpg" },
+    { "id": 34, "name": "Bulls Eye", "description": "Get a perfect score on Bull's Eye Bonanaza", "image": "34.jpg" },
+    { "id": 35, "name": "Norman's Fate", "description": "Brought down The Projectionist", "image": "35.jpg" },
+    { "id": 36, "name": "A Little Souvenier", "description": "Take a Photo at the Photo Cutout", "image": "36.jpg" },
+    { "id": 37, "name": "Call The Milk Man", "description": "Get a perfect score on Bottle Wallop", "image": "37.jpg" },
+    { "id": 38, "name": "Man Behind the Curtain", "description": "Visit theMeatly", "image": "38.jpg" },
+    { "id": 39, "name": "Standing Proud", "description": "Find out where you belong", "image": "39.jpg" },
+    { "id": 40, "name": "Blazing Metal", "description": "Unleashed the Tommy Gun", "image": "40.jpg" },
+
+    { "id": 41, "name": "Aggression", "description": "Bathe in violence", "image": "41.jpg" },
+    { "id": 42, "name": "Barbecued", "description": "Visit theMeatly", "image": "42.jpg" },
+    { "id": 43, "name": "A Taste of Home", "description": "Collected all the Bacon Soup in Chapter One", "image": "43.jpg" },
+    { "id": 44, "name": "Going To Be Sick", "description": "Go for a wild ride", "image": "44.jpg" },
+    { "id": 45, "name": "Long Forgotten Self", "description": "Unearthed the sunken room", "image": "45.jpg" },
+    { "id": 46, "name": "Canadian Bacon", "description": "Collect all the Bacon Soup in Chapter Two", "image": "46.jpg" },
+    { "id": 47, "name": "Inner Child", "description": "Play with 25 Bendy Dolls", "image": "47.jpg" },
+    { "id": 48, "name": "Hearing Voices", "description": "Listened to All Audio Logs in Chapter Three", "image": "48.jpg" },
+    { "id": 49, "name": "Toe Tappin", "description": "Find the Radio in Chapter Five", "image": "49.jpg" },
+    { "id": 50, "name": "Tea Time", "description": "Kicked back with theMeatly", "image": "50.jpg" },
+
+    { "id": 51, "name": "The Voice Collector", "description": "Listen to All Audio Logs in the Game", "image": "51.jpg" },
+    { "id": 52, "name": "Gold Record", "description": "Find all the Hidden Radios in the Game", "image": "52.jpg" },
+    { "id": 53, "name": "Unlikely Victory", "description": "Complete Chapter Four with the Plunger", "image": "53.jpg" },
+    { "id": 54, "name": "A Sweet Discovery", "description": "Say Hello to an Old Friend", "image": "54.jpg" },
+    { "id": 55, "name": "Bring Home the Bacon", "description": "Collected all Bacon Soup in Chapter Three", "image": "55.jpg" },
+    { "id": 56, "name": "Grand Puppeteer", "description": "Find theMeatly in All Chapters", "image": "56.jpg" },
+    { "id": 57, "name": "No Need for a Spoon", "description": "Collect all the Bacon Soup in Chapter Five", "image": "57.jpg" },
+    { "id": 58, "name": "Just Like Mom Used To Make", "description": "Collect all the Bacon Soup in Chapter Four", "image": "58.jpg" },
+    { "id": 59, "name": "Master of Bacon", "description": "Collect all the Bacon Soup in the Game", "image": "59.jpg" },
+    { "id": 60, "name": "Valued Employee", "description": "Take a longer walk", "image": "60.jpg" },
+
+    { "id": 61, "name": "Vintage Scares", "description": "Visit Heavenly Toys during Ink Demon's Eve", "image": "61.jpg" }
   ]
 }

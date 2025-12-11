@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Limbo",
+    "version": "1.21",
+    "size": "95MB",
+    "description": "Limbo is a critically acclaimed puzzle-platformer set in a haunting black-and-white world. Play as a young boy searching for his sister through a dangerous and atmospheric environment filled with traps, puzzles, and eerie creatures. With its minimalist art style and immersive sound design, Limbo delivers a unique and unforgettable experience.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "7~13 Hours",
+      "releaseDate": "July/21/2010",
+      "languages": "English, Português",
+      "gameType": "Puzzle, Platformer, Adventure, Indie, <br>Atmospheric"
+    },
+    "banner": "https://cdn.cloudflare.steamstatic.com/steam/apps/48000/header.jpg?t=1602480529",
+    "icon": "https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/9b655aec-9b52-11e6-bde5-00163ed833e7/2403237420/limbo-game-screenshot.png",
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEI5RyNsqHlnV5N0nc0MuNNEnSg32Jpyybt2y7AU7vsw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYblvi_CmuEDg9yxFzcbYzy0fsG2QtyctdLUBeNHnvYA&s=10"
+    ]
+  },
+  "achievements": [
+     {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

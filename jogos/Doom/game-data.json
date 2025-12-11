@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "DOOM",
+    "version": "1.0.12",
+    "size": "386MB",
+    "description": "DOOM is the iconic first-person shooter that revolutionized the gaming industry. Now available on mobile, experience the fast-paced, demon-slaying action that made DOOM legendary. Rip and tear through hordes of demons across Mars with an arsenal of powerful weapons. With updated controls optimized for touch screens, you can experience the classic FPS gameplay anywhere.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "25~40 Hours",
+      "releaseDate": "December/10/1993",
+      "languages": "English",
+      "gameType": "FPS, Action, Horror, Shooter, <br>Classic"
+    },
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ULamVmGJPStqykv-tniwZSJOttKgH7y2XhkycbgO3A&s=10",
+    "icon": "https://cdn2.steamgriddb.com/icon_thumb/ee2689a415fc2b28bb05fb5e195ebf04.png",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_v9vsNo-sMXd9egC0ul6bNzdxt__UaQ5krpTqnYKInw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ5BeLwsqCWdzasKJaFd5s2lIeOnBCJ6ynmZFC4cgOHQ&s=10"
+    ]
+  },
+  "achievements": [
+     {
+    "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

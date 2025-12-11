@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Getting Over It",
+    "version": "1.9.12",
+    "size": "145mb",
+    "description": "Getting Over It with Bennett Foddy is a punishing climbing game where you control a man in a pot using only a sledgehammer. The game tests your patience and skill as you navigate treacherous terrain, with the constant risk of falling and losing progress.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "❌ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "12~30 Hours",
+      "releaseDate": "December/6/2017",
+      "languages": "English, 繁體中文, 한국어, 日本語, Русский",
+      "gameType": "Platformer, Difficult, Physics, Indie"
+    },
+    "banner": "https://upload.wikimedia.org/wikipedia/pt/6/68/Getting_Over_It.jpg",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIX7itEgpLpq8siTwFzavUcsVwe3ItZhUOWSsXUBXm523inuB1mFbYo8M&s=10",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHX1LIrKc57dIunl0pGzPCzD2UQLkbgk0rwRbPGODCsA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX-UkSf-pDGctkVgl8m-46vwL5Tg-fVZYdWWSflEYxlg&s=10"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

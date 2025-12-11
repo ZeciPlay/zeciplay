@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Very Little Nightmares",
+    "version": "1.2.6",
+    "size": "535mb",
+    "description": "Very Little Nightmares is a puzzle adventure game set in the Little Nightmares universe. Play as a tiny girl in a yellow raincoat and explore the mysterious Nest to solve puzzles and avoid deadly traps in this atmospheric horror adventure.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "❌ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "5~8 Hours",
+      "releaseDate": "May/30/2019",
+      "languages": "English, Português",
+      "gameType": "Puzzle, Adventure, Horror, Atmospheric, <br>Indie"
+    },
+    "banner": "https://cdn.wccftech.com/wp-content/uploads/2018/02/little-nightmares-switch-2.jpg",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2EkvOZSM6Fc0la2A42dP3Y0xTYOBaNbz3MA&s",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm-QsH4xWGSg77IuwQXk6dZWG9X2Dg7tAHuqFVSo9mtoEvnXb2b9N_txuM&s=10",
+      "https://static.bandainamcoent.eu/high/little-nightmares/very-little-nightmares/00-page-setup/vln_game-thumbnail-2.jpg"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

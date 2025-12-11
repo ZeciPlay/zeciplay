@@ -1,4 +1,3 @@
-/* Reset e variáveis - TEMA ESCURO */
 :root {
     --primary-blue: #009acd;
     --dark-blue: #0077a3;
@@ -23,7 +22,8 @@ body {
     background: var(--dark-bg);
     color: var(--text-primary);
     min-height: 100vh;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Banner integrado ao header */
@@ -32,6 +32,7 @@ body {
     padding: 0 20px 20px;
     margin-bottom: 30px;
     position: relative;
+    flex-shrink: 0;
 }
 
 .wii-header-bg {
@@ -159,8 +160,10 @@ body {
     background: var(--card-bg);
     border-radius: 15px;
     padding: 20px;
-    margin: 0 20px 100px;
+    margin: 0 20px;
     box-shadow: var(--shadow);
+    flex-grow: 1;
+    overflow: visible;
 }
 
 .grid-container {
@@ -287,16 +290,15 @@ body {
     transform: scale(1.05); 
 }
 
-/* Footer */
+/* Footer - CORRIGIDO */
 .wii-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     background: var(--wii-gray);
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    z-index: 100;
+    margin-top: 30px;
+    flex-shrink: 0;
+    position: static;
 }
 
 .footer-btn {
@@ -386,7 +388,7 @@ body {
     }
     
     .wii-content-container { 
-        margin: 0 10px 80px; 
+        margin: 0 10px; 
         padding: 10px;
     }
     
@@ -437,6 +439,11 @@ body {
     
     .instruction-popup p {
         font-size: 14px;
+    }
+    
+    .wii-footer {
+        padding: 10px;
+        margin-top: 20px;
     }
 }
 

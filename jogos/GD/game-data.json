@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Geometry Dash",
+    "version": "2.2.143",
+    "size": "154MB",
+    "description": "Geometry Dash is a rhythm-based platformer game where you jump, fly, and flip your way through dangerous passages and spiky obstacles. Simple one-touch gameplay with catchy music and colorful visuals. Challenge yourself with increasingly difficult levels, create your own levels with the level editor, and share them with the online community.",
+    "specifications": {
+      "architecture": "32~64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "70~200 Hours",
+      "releaseDate": "August/13/2013",
+      "languages": "English",
+      "gameType": "Rhythm, Platformer, Music, Arcade, <br>Indie"
+    },
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM4qY3D3ykj0zCNiWfy2BVfhKM7Okg03i67oEsxbkckw&s=10",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShpolwmUJ1naFpTjJFa31yx_VoXw_If6faWTPo9dJJJQ&s=10",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw23SZXDN9k7eKPPXTq19R1X0o6wAPRPChBgk6OaZJig&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXv2Pe6ZmG55nBbjPrtORWFLcz5R0036lopjFl0cHsGw&s=10"
+    ]
+  },
+  "achievements": [
+     {
+    "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

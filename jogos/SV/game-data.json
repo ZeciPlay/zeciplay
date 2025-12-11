@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Stardew Valley",
+    "version": "1.6.15",
+    "size": "377mb",
+    "description": "Stardew Valley is an open-ended farming simulation RPG. You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+    "specifications": {
+      "architecture": "32~64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "83~220 Hours",
+      "releaseDate": "February/26/2016",
+      "languages": "English, Deutsch, Pусский, Español, 中文, Português, 日本語, 한국어, Français, Italiano, Türkçe, Magyar",
+      "gameType": "Farming, Simulation, RPG, Adventure, <br>Relaxing"
+    },
+    "banner": "https://505games.com/wp-content/uploads/2021/02/SDV-752x430-1.jpg",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOCP7CFzLkEi4hzhx37bU7TtjMmW2QS1K4-4iZKVVpxg&s=10",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHot9Tgik02HTpfBo9ihv2g5SZgTphvUGHUTWUN_GM0g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrc2EkXb9ENVvutDZ71gsmvlFVD4kLhDKxdB5SctcjNw&s=10"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

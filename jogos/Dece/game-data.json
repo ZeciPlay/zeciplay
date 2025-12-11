@@ -1,0 +1,32 @@
+{
+  "game": {
+    "title": "Dead Cells",
+    "version": "3.5.9",
+    "size": "1.8GB",
+    "description": "Dead Cells is a rogue-lite, metroidvania-inspired action-platformer. You'll explore a sprawling, ever-changing castle, assuming the role of a failed alchemical experiment trying to figure out what's happening on a gloomy island. Combat is fast and frantic, requiring quick reflexes and smart use of a wide variety of weapons and skills.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "70~260 Hours",
+      "releaseDate": "August/7/2018",
+     "languages": "English, Deutsch, Español, Español (America Latina), Français, Italiano, 日本語, 한국어, Polski, Português, Русский, Türkçe, 繁體中文",  "gameType": "Action, Roguelite, Metroidvania, Platformer, <br>Indie"
+    },
+    "banner": "https://e0.pxfuel.com/wallpapers/733/883/desktop-wallpaper-dead-cells-game-banner.jpg",
+    "icon": "https://play-lh.googleusercontent.com/Mn9NateYFRZQbWnlZvszDPoKZbeuZM2O-Kyn7EKRCZI3D8joecHqytfOx73IyuAwHw",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzDoEdLpi-F1gKoRDoe-4SnSS-g6SrCLvyz9teaPb8Eg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSBK_VQveCOC7t5qVGnL4WhGyjf1fhyYB7VK8u_Hf6w&s=10"
+    ]
+  },
+  "achievements": [
+   {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

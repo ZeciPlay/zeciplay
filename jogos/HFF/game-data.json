@@ -1,0 +1,32 @@
+{
+  "game": {
+    "title": "Human: Fall Flat",
+    "version": "2.5.1",
+    "size": "726MB",
+    "description": "Human: Fall Flat is a hilarious, light-hearted physics puzzle platformer set in floating dreamscapes. Control a wobbly human character with fully interactive arms as you solve puzzles through various surreal environments. Each level presents new challenges to master with your floppy physics, and you can play solo or with friends in cooperative multiplayer.",
+    "specifications": {
+      "architecture": "32~64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "16~20 Hours",
+      "releaseDate": "July/22/2016",
+      "languages": "Português, English, Français, Deutsch, Español, 日本語, 한국어, 简体中文, Polski",      "gameType": "Puzzle, Platformer, Physics, Comedy, <br>Multiplayer, Indie"
+    },
+    "banner": "https://curvegames.com/wp-content/uploads/2025/01/HFF_KeyArt_Logo_16x9_EN-1280x720.jpg",
+    "icon": "https://cdn2.steamgriddb.com/icon/8526e0962a844e4a2f158d831d5fddf7/32/256x256.png",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpnBLaES1zOUXVOR6p6vPd54kXlIfVQy4wb7_vzzG8Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0e0gXEva-Trom4hrA0JiS2hhIZXNyqSKnI9bDQrl3HQ&s=10"
+    ]
+  },
+  "achievements": [
+    {
+    "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

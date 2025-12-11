@@ -16,11 +16,10 @@
       "gameType": "Action, Adventure, Naval Combat, <br>Open World, Single Player"
     },
     "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlcF9mw9X0rAKA31A2cgUS5i60ALb6DaHsktSujqDb7NJ42Eu_Y1EI_os4&s=10",
-    "icon": "1.png",
+    "icon": "https://upload.wikimedia.org/wikipedia/fr/a/a1/Assassin%27s_Creed_Pirates_Logo.png",
     "screenshots": [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxgcNUvjOiwJG0ckNUU73MFmw9NSsFaT03TiRun88h7g&s=10",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdh4O6VC_Tz2l5jqeXsYYGeU07qVFcWmEbLyxsFkV-zXLp9PyFGp2TFgui&s=10",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF4u_K73Wop2Gy3sg-kKPI-vJHaY-th5jCIKW_drFKFQ&s=10"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdh4O6VC_Tz2l5jqeXsYYGeU07qVFcWmEbLyxsFkV-zXLp9PyFGp2TFgui&s=10"
     ]
   },
  "achievements": [

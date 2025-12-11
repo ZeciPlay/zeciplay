@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Incredibox",
+    "version": "0.9.9",
+    "size": "141mb",
+    "description": "Incredibox is a music app that lets you create your own music with the help of a merry crew of beatboxers. Choose your musical style among 9 impressive atmospheres and start to lay down, record and share your mix.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "❌ Not Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "No defined time",
+      "releaseDate": "January/20/2009",
+      "languages": "English, Italiano, Français, Deutsch, Pусский, Español, Norsk, Português, Polski, Türkçe, Українська, 한국어, 日本語, 简体中文, 繁體中文, Tiếng Việt, Indonesia",
+      "gameType": "Music, Casual, Creative, Educational, <br>Rhythm"
+    },
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrmdzOYkSHpKQ1E0e5bDAz7fDaQzNnOF1MSODJkmI6CI1c1CCjhgsLHyPH&s=10",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUucTqBfry4ZuFiR8AX3alnvZQXMoUwNSzdf3eY-QmHQ&s=10",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBZUMifstye_0rRYjwybaUu7GQKOac55QhWKidZeDMwA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjG14FX_TPDMtpNmv5tufPUUnZkyxu7zjgomiIpy982A&s=10"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

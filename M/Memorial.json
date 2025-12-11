@@ -41,6 +41,55 @@
     "genre": "Endless Runner",
     "link": "https://abre.ai/smnl"
   },
+ {
+    "name": "Tekken Mobile",
+    "size": "189mb",
+    "image": "https://img.utdstc.com/icon/066/159/066159bd3af41b02e63e19ac52afb90e9f493f302d348a3e8e891e1e3012d24c:200",
+    "genre": "Action",
+    "link": "https://tekken.fandom.com/wiki/Tekken_(Mobile)"
+  },
+ {
+    "name": "DC unchained",
+    "size": "75mb+",
+    "image": "https://img.utdstc.com/icon/24a/240/24a240903a967e2136a716d61464cf7ffb630018912ba03c14aa513a3a5140ff:200",
+    "genre": "Action",
+    "link": "https://dc-unchained.br.uptodown.com/android/download"
+  },
+ {
+    "name": "Touhou danmaku kagura",
+    "size": "107mb+",
+    "image": "https://img.utdstc.com/icon/2e9/8d4/2e98d4087619bb01adce1a4237a092ae78644625d7b0b26e2d02c2eb8897285e:200",
+    "genre": "Rhythm",
+    "link": "https://touhou-danmaku-kagura.br.uptodown.com/android"
+  },
+ {
+    "name": "Marvel FUTURE Revolution",
+    "size": "1.6gb",
+    "image": "https://img.utdstc.com/icon/660/e16/660e16d42721fe592c8995ea9943dc9637a327b94d5c3b7a95a14c3daea6aa25:200",
+    "genre": "mmorpg",
+    "link": "https://apkaward.com/marvel-future-revolution"
+  },
+ {
+    "name": "Blitz Brigade",
+    "size": "1.20gb",
+    "image": "https://dl.apkawards.com/moda/dl22/games/com.gameloft.android.ANMP.GloftINHM/img/com.gameloft.android.ANMP.GloftINHM.png",
+    "genre": "Action",
+    "link": "https://apkaward.com/blitz-brigade-online-fps-fun"
+  },
+ {
+    "name": "Star Wars Hunters",
+    "size": "3.1gb",
+    "image": "https://img.utdstc.com/icon/fc1/a48/fc1a48282c1fef983c495896a1ac0bc70807862895bc454c6b22a9b0e4bebfb2:200",
+    "genre": "Action",
+    "link": "https://www.google.com/amp/s/apkpure.com/br/star-wars-hunters%E2%84%A2/com.zynga.starwars.hunters/amp"
+  },
+  {
+    "name": "Mortal Kombat Ounslaught",
+    "size": "130mb+",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-6pqaP39eM5lE3-KsYK_MiVsB18o29BDiry-U9drD2w&s=10",
+    "genre": "Action",
+    "link": "https://liteapks.com/mortal-kombat-onslaught.html"
+  },
   {
     "name": "Titan Fall",
     "size": "157mb",

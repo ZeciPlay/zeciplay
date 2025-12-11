@@ -1,0 +1,12 @@
+{
+  "devices": [
+    {
+      "name": "Redmi Note 8",
+      "compatibility": "Compatible",
+      "fps_normal": "60 FPS",
+      "fps_configurado": "60 FPS",
+      "quedas_fps": "No",
+      "user": "DM7Ofi"
+    }
+  ]
+}

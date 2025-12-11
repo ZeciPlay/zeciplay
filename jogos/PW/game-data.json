@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Pascal's Wager",
+    "version": "1.6.8",
+    "size": "3,38GB",
+    "description": "Pascal's Wager is a dark fantasy action RPG inspired by souls-like games. In a world covered by darkness, players take on the role of couriers who deliver light. Fight challenging monsters, explore mysterious lands, and uncover the secrets of this desolate world.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "❌ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "40~60 Hours",
+      "releaseDate": "January/16/2020",
+      "languages": "English, 简体中文, 繁體中文, 日本語, 한국어, Español, Português, Français, Deutsch, Русский",
+      "gameType": "Action, RPG, Souls-like, Dark Fantasy, <br>Adventure"
+    },
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1HzL6JqyXTJOvtGM9mbwAFf5mFH_SSBZWRo25p9_Bg&s=10",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA4tBmOwmNvo4syITKztb2cNBL1YKjC98VKy6bgK35Cg&s=10",    
+    "screenshots": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT4_SoQEDLy5LPb8TV5cnHfYuMTpPaLRNI6rvQNbJU5Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnAPhQnEtOxtkO8F0Qj8uijZKy0HA5nCBhDUz3h5tHS2XCdn6ULSe1zSs&s=10"
+    ]
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}

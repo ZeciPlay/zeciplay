@@ -1,0 +1,33 @@
+{
+  "game": {
+    "title": "Fran Bow",
+    "version": "1.0.3",
+    "size": "506mb",
+    "description": "Fran Bow is a psychological horror graphic adventure game that tells the story of Fran, a girl who witnesses the gruesome death of her parents. After being sent to Oswald Asylum, she must use her medication to see a sinister alternate world, the Ultrareality, in order to solve the murder, find her cat Mr. Midnight, and return to her aunt.",
+    "specifications": {
+      "architecture": "64-bit",
+      "ts": "✅ Supported",
+      "gamepad": "✅ Supported",
+      "keyboard": "✅ Supported",
+      "fullscreen": "✅ Supported",
+      "playtime": "8~25 Hours",
+      "releaseDate": "August/27/2015",
+      "languages": "English, Español, Português, Français, Deutsch, Русский",
+      "gameType": "Adventure, Horror, Puzzle, Point-and-click"
+    },
+    "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAbU5R4FVEb-c91aEB8eojLgu6KRqxY8-s8KKo_NuLVd7Lte00k-EzAGb3&s=10",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVoSr6vbCw7YD9Vs7JnEmRLAHwI1coxb1z64uSBWUEdN1ao3LhZs9ixXYi&s=10",    
+    "screenshots": [
+      "https://cdn.mobygames.com/screenshots/5594883-fran-bow-windows-at-mabukas-den.jpg",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362680/ss_a4b9506830322508c19cd4ce4bd4b9138a5f3bad.jpg"
+        ]
+  },
+  "achievements": [
+    {
+    "id": 1,
+      "name": "Trophies Coming Soon",
+      "description": "Trophies for this game will be added in the future",
+      "image": "1.jpg"
+    }
+  ]
+}
